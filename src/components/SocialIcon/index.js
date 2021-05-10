@@ -26,7 +26,7 @@ export const SocialIcon = (props) => {
   const buttonPadding = props.compact ? 0 : 12;
   return (
     <div>
-      <a href="/">
+      <a href="https://twitter.com/PoltergeistDEX">
         <IconButton
           style={{ paddingRight: buttonPadding, paddingLeft: buttonPadding }}
         >
