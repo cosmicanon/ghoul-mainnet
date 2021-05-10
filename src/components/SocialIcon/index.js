@@ -1,0 +1,57 @@
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import { IconButton, CardMedia } from "@material-ui/core";
+import TwitterIcon from "@material-ui/icons/Twitter";
+import RedditIcon from "@material-ui/icons/Reddit";
+import TelegramIcon from "@material-ui/icons/Telegram";
+
+import { discord } from "../../images";
+
+const useStyles = makeStyles((theme) => ({
+  discordIcon: {
+    height: 22,
+    width: 25,
+  },
+  socialIconGroup: {
+    marginTop: 55,
+  },
+  socialIcon: {
+    color: theme.palette.secondary.socialIconColor,
+    fontSize: 25,
+  },
+}));
+
+export const SocialIcon = (props) => {
+  const classes = useStyles();
+  const buttonPadding = props.compact ? 0 : 12;
+  return (
+    <div>
+      <a href="/">
+        <IconButton
+          style={{ paddingRight: buttonPadding, paddingLeft: buttonPadding }}
+        >
+          <TwitterIcon className={classes.socialIcon} />
+        </IconButton>
+      </a>
+      <a href="/">
+        <IconButton style={{ paddingRight: buttonPadding }}>
+          <CardMedia
+            className={classes.discordIcon}
+            image={discord}
+            title="DiscordLogo"
+          />
+        </IconButton>
+      </a>
+      <a href="/">
+        <IconButton style={{ paddingRight: buttonPadding }}>
+          <RedditIcon className={classes.socialIcon} />
+        </IconButton>
+      </a>
+      <a href="https://t.me/poltergeistexchange">
+        <IconButton style={{ paddingRight: buttonPadding }}>
+          <TelegramIcon className={classes.socialIcon} />
+        </IconButton>
+      </a>
+    </div>
+  );
+};
