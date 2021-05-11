@@ -55,7 +55,7 @@ export const StackRightSide = () => {
     <div className={classes.constainer}>
       <Typography className={classes.title}>Stake $GHOUL</Typography>
       <Typography className={classes.description}>
-        Stake your $GHOUL tokens for governance voting and earning rwards within the ecosystem.
+        Stake your $GHOUL tokens on Poltergeist Exchange for governance voting and earning rewards within the ecosystem.
       </Typography>
 
       <a
