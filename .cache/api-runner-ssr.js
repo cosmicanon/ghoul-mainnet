@@ -1,26 +1,26 @@
 var plugins = [{
       name: 'gatsby-plugin-react-helmet',
-      plugin: require('C:/projects/ghoul-mainnet/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('I:/Clone/ghoul-mainnet/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
       name: 'gatsby-plugin-image',
-      plugin: require('C:/projects/ghoul-mainnet/node_modules/gatsby-plugin-image/gatsby-ssr'),
+      plugin: require('I:/Clone/ghoul-mainnet/node_modules/gatsby-plugin-image/gatsby-ssr'),
       options: {"plugins":[]},
     },{
       name: 'gatsby-plugin-manifest',
-      plugin: require('C:/projects/ghoul-mainnet/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('I:/Clone/ghoul-mainnet/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/img/gatsby-icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"4a9773549091c227cd2eb82ccd9c5e3a"},
     },{
       name: 'gatsby-theme-material-ui-top-layout',
-      plugin: require('C:/projects/ghoul-mainnet/node_modules/gatsby-theme-material-ui-top-layout/gatsby-ssr'),
+      plugin: require('I:/Clone/ghoul-mainnet/node_modules/gatsby-theme-material-ui-top-layout/gatsby-ssr'),
       options: {"plugins":[]},
     },{
       name: 'gatsby-plugin-material-ui',
-      plugin: require('C:/projects/ghoul-mainnet/node_modules/gatsby-plugin-material-ui/gatsby-ssr'),
+      plugin: require('I:/Clone/ghoul-mainnet/node_modules/gatsby-plugin-material-ui/gatsby-ssr'),
       options: {"plugins":[],"stylesProvider":{"injectFirst":true}},
     },{
       name: 'gatsby-plugin-webfonts',
-      plugin: require('C:/projects/ghoul-mainnet/node_modules/gatsby-plugin-webfonts/gatsby-ssr'),
+      plugin: require('I:/Clone/ghoul-mainnet/node_modules/gatsby-plugin-webfonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":{"google":[{"family":"Roboto","variants":["300","400","500"]}]}},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

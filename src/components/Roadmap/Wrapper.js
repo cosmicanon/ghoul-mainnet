@@ -4,7 +4,7 @@ import { Grid, Typography } from "@material-ui/core";
 
 import { Font } from "..";
 import { roadMapImg } from "../../images";
-import { Tabs } from "./Tabs";
+import NewMap from "./NewMap";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
@@ -73,7 +73,7 @@ export const Wrapper = () => {
           </Grid>
         </Grid>
         <Grid item sm={12} xs={12}>
-          <Tabs />
+          <NewMap/>
         </Grid>
       </div>
     </div>
