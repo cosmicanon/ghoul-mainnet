@@ -100,6 +100,9 @@ const useStyles = makeStyles((theme) => ({
       backgroundColor: "rgba(255,255,255, 0.15)",
     },
   },
+  mintFocus: {
+    color: "#56ff99",
+  },
   socialIconGroup: {
     marginTop: 40,
   },
@@ -114,8 +117,7 @@ export const PrivacyLeftSide = () => {
         <span className={classes.title2}>& Untraceable Stablecoin</span>
       </Typography>
       <Typography className={classes.description}>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry
+        <span className={classes.mintFocus}>Mint $GHOSTDAI</span> using popular Stablecoins across multiple chains.
       </Typography>
       <div className={classes.btnarea}>
         <div className={classes.btnsWrapper}>
