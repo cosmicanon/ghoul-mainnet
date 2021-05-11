@@ -1,6 +1,0 @@
-[
-    {
-        "path": "/faq/[id]/",
-        "matchPath": "/faq/:id"
-    }
-]
