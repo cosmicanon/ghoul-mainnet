@@ -61,8 +61,9 @@ export const Wrapper = () => {
         <Grid container style={{ alignItems: "center" }}>
           <Grid item md={8} sm={12} xs={12}>
             <Typography className={classes.title}>
-              Roadmap <span className={classes.title2}>2021</span>
+              Ecosystem Roadmap
             </Typography>
+            <h2></h2>
           </Grid>
           <Grid item md={4}>
             <img

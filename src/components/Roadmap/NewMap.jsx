@@ -8,11 +8,10 @@ export default function NewMap() {
                     <div className="cd-timeline-img cd-picture">
                     </div>
                     <div className="cd-timeline-content">
-                        <h2>Exchanges</h2>
-                        <span className="cd-date">Jan 18</span>
+                        <h2>PRIFI</h2>
                         <ul >
-                            <li>Poltergiest exchange</li>
-                            <li>AnonFinance/ValuePriFi</li>
+                            <li>Poltergeist Exchange</li>
+                            <li>AnonSwap</li>
                         </ul>
                     </div> {/* cd-timeline-content */}
                 </div> {/* cd-timeline-block */}
@@ -21,9 +20,8 @@ export default function NewMap() {
                     </div> {/* cd-timeline-img */}
                     <div className="cd-timeline-content">
                         <h2>Identification</h2>
-                        <span className="cd-date">Jan 20</span>
                         <ul >
-                            <li>Spooks - p2p identity verification/alias <br /> creation without using real ID info.<br />Trust score</li>
+                            <li>Alias - p2p Identity verification without using national IDs</li>
                         </ul>
                     </div> {/* cd-timeline-content */}
                 </div> {/* cd-timeline-block */}
@@ -32,9 +30,10 @@ export default function NewMap() {
                     </div> {/* cd-timeline-img */}
                     <div className="cd-timeline-content">
                         <h2>eCommerce/Marketplaces</h2>
-                        <span className="cd-date">Jan 24</span>
                         <ul>
-                            <li>pBusiness in a box</li>
+                            <li>Alfred - High end and premium services in the real world</li>
+                            <li>myTour - All-inclusive packages for recreation, medical</li>
+                            <li>Migratr - Migration, residencies, CBI</li>
                         </ul>
                     </div> {/* cd-timeline-content */}
                 </div> {/* cd-timeline-block */}
@@ -43,26 +42,12 @@ export default function NewMap() {
                     </div> {/* cd-timeline-img */}
                     <div className="cd-timeline-content">
                         <h2>Services</h2>
-                        <span className="cd-date">Feb 26</span>
                         <ul>
-                            <li>AnonPay - Use private tokens to pay for <br />
-        goods/services online sites that accept cards.</li>
-                            <li>pLUX/Alfred - high end and premium services<br />
-        in the real world</li>
-                            <li>pTours - Full tourism packagesrecreations,<br />
-        medical</li>
-                            <li>
-                                pMigrate - Migration services, residencies, CBI
-        </li>
-                            <li>
-                                Mascot - GAN AI "public faces" for anon projects
-        </li>
-                            <li>
-                                AnonCards - Debit card provisioning
-        </li>
-                            <li>
-                                pCommunities - Real estate development
-        </li>
+                            <li>LaunchBox - PRIFI products for entrepreneurs, startups</li>
+                            <li>AnonCards - Anonymous debit cards</li>
+                            <li>AnonPay - Pay crypto on sites that accept cards</li>
+                            <li>Mascot - "Public Faces" for Anon projects</li>
+                            <li>Communiti - Real estate development</li>
                         </ul>
                     </div> {/* cd-timeline-content */}
                 </div> {/* cd-timeline-block */}
@@ -71,11 +56,10 @@ export default function NewMap() {
                     </div>
                     <div className="cd-timeline-content">
                         <h2>Investments and Grants</h2>
-                        <span className="cd-date">Feb 28</span>
                         <ul>
-                            <li>Hatchdeck - Incubator and launchpad<br />with hackathons</li>
+                            <li>Spectre Ventures</li>
+                            <li>Hatchdeck - Incubator and launchpad</li>
                             <li>PriPhi - Private Philanthropy</li>
-                            <li>Spectre Capital</li>
                         </ul>
                     </div> {/* cd-timeline-content */}
                 </div> {/* cd-timeline-block */}
@@ -84,10 +68,8 @@ export default function NewMap() {
                     </div> {/* cd-timeline-img */}
                     <div className="cd-timeline-content">
                         <h2>Gaming/Entertainment</h2>
-                        <span className="cd-date">Mar 2</span>
                         <ul>
-                            <li>Lottery</li>
-                            <li>Midas Casino</li>
+                            <li>Midas Gaming</li>
                             <li>Paracosm</li>
                         </ul>
                     </div> {/* cd-timeline-content */}
@@ -96,13 +78,12 @@ export default function NewMap() {
                     <div className="cd-timeline-img cd-picture">
                     </div>
                     <div className="cd-timeline-content">
-                    <h2>Expreimental</h2>
-                        <span className="cd-date">Mar 4</span>
+                    <h2>Experimental</h2>
                         <ul>
-                            <li>eAntarctica - e-/micro-nations building</li>
+                            <li>eAntarctica</li>
                             <li>Ghostwriter</li>
                             <li>Robinhood</li>
-                            <li>Ghost DNS - for custom TLDs</li>
+                            <li>Ghost DNS + TLDs</li>
                         </ul>
                     </div> {/* cd-timeline-content */}
                 </div> {/* cd-timeline-block */}

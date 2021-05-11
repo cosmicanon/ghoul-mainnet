@@ -78,10 +78,10 @@ export const Footer = (props) => {
           <Grid item md={3} sm={6} xs={12}>
             <div className={classes.logoAreaContainer}>
               <div className={classes.logoArea}>
-                <img alt="Logo" src={logo} className={classes.logo} />
+                <img alt="Logo" src={logo} className={classes.logo} />&nbsp;&nbsp;<h3>Poltergeist Labs</h3>
               </div>
               <Typography className={classes.description}>
-                Privacy focused proof of stake cryptocurrency
+                Privacy Focused Ecosystem with an Untraceable Stablecoin
               </Typography>
               <Typography className={classes.title}>Community</Typography>
               <div className={classes.social}>
