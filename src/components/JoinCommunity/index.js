@@ -121,7 +121,7 @@ export const JoinCommunity = () => {
               Join our Community
             </Typography>
             <Typography className={classes.description}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting.
+              Let's BUIDL and grow something awesome together!
             </Typography>
             <div className={classes.btn}>
               <Grid spacing={2} container>

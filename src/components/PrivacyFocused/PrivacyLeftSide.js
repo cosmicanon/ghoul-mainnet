@@ -110,8 +110,8 @@ export const PrivacyLeftSide = () => {
   return (
     <div>
       <Typography className={classes.title}>
-        Privacy-Focused &{" "}
-        <span className={classes.title2}>Anonymous Ecosystem</span>
+        Privacy-Focused Ecosystem{" "}
+        <span className={classes.title2}>& Untraceable Stablecoin</span>
       </Typography>
       <Typography className={classes.description}>
         Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -129,10 +129,10 @@ export const PrivacyLeftSide = () => {
               <img
                 src={logo}
                 alt="logo"
-                style={{ width: 18, marginRight: 8 }}
+                style={{ width: 20, marginRight: 8 }}
               />
               Launch App{" "}
-              <span style={{ fontSize: 10, marginLeft: 5 }}>(Coming Soon)</span>
+              <span style={{ fontSize: 9, marginLeft: 5 }}>coming soon</span>
             </Button>
           </a>
           <a href="#0" className={classes.btnLink}>
@@ -145,6 +145,7 @@ export const PrivacyLeftSide = () => {
             </Button>
           </a>
         </div>
+
       </div>
       <div className={classes.socialIconGroup}>
         <SocialIcon />

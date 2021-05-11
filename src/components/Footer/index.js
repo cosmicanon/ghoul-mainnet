@@ -83,14 +83,13 @@ export const Footer = (props) => {
               <Typography className={classes.description}>
                 Privacy Focused Ecosystem with an Untraceable Stablecoin
               </Typography>
-              <Typography className={classes.title}>Community</Typography>
               <div className={classes.social}>
                 <SocialIcon compact={true} />
               </div>
             </div>
             <br />
           </Grid>
-          <Grid item md={3} sm={6} xs={12}>
+          <Grid item md={4} sm={6} xs={12}>
             <div className={classes.logoAreaContainer}>
               <Typography className={classes.title}>Getting Started</Typography>
               <div className={classes.nav}>

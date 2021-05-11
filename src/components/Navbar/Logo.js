@@ -34,7 +34,7 @@ export const Logo = () => {
   return (
     <div className={classes.logoArea}>
       <Avatar alt="Logo" src={logo} className={classes.logo} />
-      <Typography className={classes.logoText}>Poltergeist Exchange</Typography>
+      <Typography className={classes.logoText}>Poltergeist Labs</Typography>
     </div>
   );
 };

@@ -114,12 +114,7 @@ const list = [
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
-  {
-    logo: veteransIconGreen,
-    title: "Veterans",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  },
+
 ];
 
 export const SpeedSecurity = () => {
@@ -139,7 +134,7 @@ export const SpeedSecurity = () => {
           </Grid>
           <Grid container spacing={2} className={classes.cardarea}>
             {list.map((data, index) => (
-              <Grid item md={3} sm={6} xs={12} key={index}>
+              <Grid item md={4} sm={6} xs={12} key={index}>
                 <div className={classes.cardContainer}>
                   <img src={data.logo} alt="Logo" className={classes.imgLogo} />
                   <Typography className={classes.cardTitle}>

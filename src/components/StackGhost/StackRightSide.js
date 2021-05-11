@@ -53,17 +53,26 @@ export const StackRightSide = () => {
   const classes = useStyles();
   return (
     <div className={classes.constainer}>
-      <Typography className={classes.title}>Stake</Typography>
+      <Typography className={classes.title}>Stake $GHOUL</Typography>
       <Typography className={classes.description}>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry.
+        Stake your $GHOUL tokens for governance voting and earning rwards within the ecosystem.
       </Typography>
+
       <a
         href="/"
         // rel="noreferrer"
         // target="_blank"
       >
-        <BtnWithArrow title="Click here" />
+        <BtnWithArrow title="View Staking Plans" />
+      </a>
+
+
+      <a
+        href="/"
+        // rel="noreferrer"
+        // target="_blank"
+      >
+        <BtnWithArrow title="Buy $GHOUL" />
       </a>
     </div>
   );
