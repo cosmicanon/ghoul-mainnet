@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Poltergeist Labs - Ghoul Token Landing Page
+  Poltergeist Labs - Ghoul Token
 </h1>
 
 
