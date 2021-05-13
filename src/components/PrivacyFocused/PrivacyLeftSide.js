@@ -133,20 +133,33 @@ export const PrivacyLeftSide = () => {
                 alt="logo"
                 style={{ width: 20, marginRight: 8 }}
               />
-              Launch App{" "}
-              <span style={{ fontSize: 9, marginLeft: 5 }}>coming soon</span>
+              Buy $GHOUL{" "}
             </Button>
           </a>
+
           <a href="#0" className={classes.btnLink}>
             <Button
               variant="contained"
               color="primary"
               className={`${classes.btnCommon} ${classes.downloadBtn}`}
             >
-              Learn More
+              Read Darkpaper
             </Button>
           </a>
         </div>
+        <div className={classes.btnsWrapper}>
+          <a href="#0" className={classes.btnLink}>
+            <Button
+              variant="contained"
+              color="secondary"
+              className={classes.btnCommon}
+              style={{ width: 225 }}
+            >
+              Launch App{" "}
+              <span style={{ fontSize: 9, marginLeft: 5 }}>coming soon</span>
+            </Button>
+          </a>
+          </div>
 
       </div>
       <div className={classes.socialIconGroup}>
