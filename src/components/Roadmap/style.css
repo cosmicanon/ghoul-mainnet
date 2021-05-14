@@ -99,7 +99,7 @@ html, body {
     background: #333c42;
     border-radius: 2px;
     padding: 1em;
-    opacity: 90%;
+    opacity: 0.9;
 
 background: #485563;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
