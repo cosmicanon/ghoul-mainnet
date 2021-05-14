@@ -117,7 +117,7 @@ export const PrivacyLeftSide = () => {
         <span className={classes.title2}>& Untraceable Stablecoin</span>
       </Typography>
       <Typography className={classes.description}>
-        <span className={classes.mintFocus}>Mint $GHOSTDAI</span> using popular Stablecoins across multiple chains.
+        <span className={classes.mintFocus}>Mint $GHOSTDAI</span> using popular Stablecoins.
       </Typography>
       <div className={classes.btnarea}>
         <div className={classes.btnsWrapper}>
@@ -156,7 +156,7 @@ export const PrivacyLeftSide = () => {
               style={{ width: 225 }}
             >
               Launch App{" "}
-              <span style={{ fontSize: 9, marginLeft: 5 }}>coming soon</span>
+              <span style={{ fontSize: 10, marginLeft: 5 }}>coming soon</span>
             </Button>
           </a>
           </div>

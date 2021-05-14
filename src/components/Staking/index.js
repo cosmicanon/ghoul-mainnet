@@ -1,9 +1,10 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Grid, Typography } from "@material-ui/core";
+import { Grid, Typography, Button } from "@material-ui/core";
 import './style.css';
 import { Font } from "..";
 import { Footer, FooterDivider, Seo } from "..";
+import { logo } from "../../images";
 
 export const Staking = () => (
   <>
@@ -52,7 +53,57 @@ const useStyles = makeStyles((theme) => ({
       fontSize: Font.size28,
     },
   },
- 
+   btnarea: {
+    marginTop: 50,
+    display: "flex",
+    flexFlow: "column",
+    marginLeft: -16,
+    [theme.breakpoints.down("sm")]: {
+      flexFlow: "row",
+      justifyContent: "center",
+      marginTop: "35px",
+      marginLeft: "-8px",
+    },
+  },
+  btnLink: {
+    [theme.breakpoints.down("sm")]: {
+      "& button": {
+        marginTop: "15px",
+      },
+    },
+  },
+  btnsWrapper: {
+    marginTop: "15px",
+    [theme.breakpoints.down("sm")]: {
+      marginTop: "0px",
+      width: "100%",
+    },
+  },
+  btnCommon: {
+    width: "196px",
+    height: "48px",
+    borderRadius: 8,
+    textTransform: "capitalize",
+    color: "white",
+    [theme.breakpoints.down("md")]: {
+      width: "180px",
+      fontSize: Font.size12,
+    },
+    [theme.breakpoints.down("sm")]: {
+      marginLeft: "8px",
+      width: "calc(100% - 15px)",
+    },
+  },
+  downloadBtn: {
+    width: 140,
+    border: "1px solid #FFFFFF",
+    "&:hover": {
+      backgroundColor: "rgba(255,255,255, 0.15)",
+    },
+  },
+  mintFocus: {
+    color: "#56ff99",
+  },
 
 }));
 
@@ -75,10 +126,28 @@ export default function StakingTiers() {
         <Grid container>
         <Grid item  md={5} sm={12} xs={12}>
 
-            	<br />
-            	<p>Stake your GHOUL on Poltergeist Exchange for ecosystem governance, profit sharing and other upcoming benefits.<br /><br />
-            		<br /><br /><a href="/" className="btn-buy">Buy $GHOUL</a><br /><br />
-            	</p>
+        	<br />
+        	<p>
+            Stake your GHOUL on Poltergeist Exchange for ecosystem governance, profit sharing and other upcoming benefits.<br /><br/>
+        	</p>
+
+           <div className={classes.btnsWrapper}>
+              <a href="#0" className={classes.btnLink}>
+                <Button
+                  variant="contained"
+                  color="secondary"
+                  className={classes.btnCommon}
+                  style={{ width: 225 }}
+                >
+                <img
+                  src={logo}
+                  alt="logo"
+                  style={{ width: 20, marginRight: 8 }}
+                />
+                  Buy $GHOUL{" "}
+                </Button>
+              </a>
+            </div><br/><br/>
 
         </Grid>
         <Grid item  md={7} sm={12} xs={12}>
