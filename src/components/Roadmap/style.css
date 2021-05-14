@@ -1,7 +1,6 @@
 html, body {
     background-image: url('https://poltergeistexchange.com/static/media/background.81a4821d.png');
     height: 100%;
-    font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
 .cd-container {
@@ -100,6 +99,7 @@ html, body {
     background: #333c42;
     border-radius: 2px;
     padding: 1em;
+    opacity: 90%;
 
 background: #485563;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
@@ -195,8 +195,7 @@ background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, F
     .cd-timeline-content {
         color: white;
         margin-left: 0;
-        padding: 1.6em;
-        width: 36%;
+        width: 40%;
         margin: 0 5%;
    }
     .cd-timeline-content::before {

@@ -45,7 +45,6 @@ const useStyles = makeStyles((theme) => ({
     fontSize: Font.size25,
   },
   description: {
-    width: 170,
     fontSize: Font.size16,
     color: "rgba(255, 255, 255, 0.6)",
     marginTop: 10,
@@ -75,13 +74,13 @@ export const Footer = (props) => {
     <div style={{ ...props.style }}>
       <div className={classes.navContainer}>
         <Grid container align="center" justify="center" direction="row">
-          <Grid item md={3} sm={6} xs={12}>
+          <Grid item md={6} sm={6} xs={12}>
             <div className={classes.logoAreaContainer}>
               <div className={classes.logoArea}>
                 <img alt="Logo" src={logo} className={classes.logo} />&nbsp;&nbsp;<h3>Poltergeist Labs</h3>
               </div>
               <Typography className={classes.description}>
-                Privacy Focused Ecosystem with an Untraceable Stablecoin
+                Privacy Focused Ecosystem & Untraceable Stablecoin
               </Typography>
               <div className={classes.social}>
                 <SocialIcon compact={true} />
@@ -89,10 +88,13 @@ export const Footer = (props) => {
             </div>
             <br />
           </Grid>
-          <Grid item md={4} sm={6} xs={12}>
-            <div className={classes.logoAreaContainer}>
+          <Grid item md={6} sm={6} xs={12}>
+            <div className={classes.logoAreaContainer} style={{ marginTop: '30px' }}>
               <Typography className={classes.title}>Getting Started</Typography>
               <div className={classes.nav}>
+                <Link to="/staking" className={classes.navbarText}>
+                  <Typography>Staking</Typography>
+                </Link>                
                 <Link to="/roadmap" className={classes.navbarText}>
                   <Typography>Roadmap</Typography>
                 </Link>

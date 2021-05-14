@@ -57,21 +57,12 @@ export const Wrapper = () => {
   const classes = useStyles();
   return (
     <div className={classes.mainContainer}>
-      <div className="road-map-container">
+      <div className="container">
         <Grid container style={{ alignItems: "center" }}>
-          <Grid item md={8} sm={12} xs={12}>
             <Typography className={classes.title}>
               Ecosystem Roadmap
             </Typography>
             <h2></h2>
-          </Grid>
-          <Grid item md={4}>
-            <img
-              src={roadMapImg}
-              alt="Roadmap"
-              className={classes.roadMapImg}
-            />
-          </Grid>
         </Grid>
         <Grid item sm={12} xs={12}>
           <NewMap/>

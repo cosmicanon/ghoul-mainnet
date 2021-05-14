@@ -8,7 +8,7 @@ export default function NewMap() {
                     <div className="cd-timeline-img cd-picture">
                     </div>
                     <div className="cd-timeline-content">
-                        <h2>PRIFI</h2>
+                        <h3>PRIFI</h3>
                         <ul >
                             <li>Poltergeist Exchange</li>
                             <li>AnonSwap</li>
@@ -19,9 +19,9 @@ export default function NewMap() {
                     <div className="cd-timeline-img cd-movie">
                     </div> {/* cd-timeline-img */}
                     <div className="cd-timeline-content">
-                        <h2>Identification</h2>
+                        <h3>Identification</h3>
                         <ul >
-                            <li>Alias - p2p Identity verification without using national IDs</li>
+                            <li>Alias - P2P identity verification without using real IDs</li>
                         </ul>
                     </div> {/* cd-timeline-content */}
                 </div> {/* cd-timeline-block */}
@@ -29,7 +29,7 @@ export default function NewMap() {
                     <div className="cd-timeline-img cd-picture">
                     </div> {/* cd-timeline-img */}
                     <div className="cd-timeline-content">
-                        <h2>eCommerce/Marketplaces</h2>
+                        <h3>Marketplaces</h3>
                         <ul>
                             <li>Alfred - High end and premium services in the real world</li>
                             <li>myTour - All-inclusive packages for recreation, medical</li>
@@ -41,9 +41,9 @@ export default function NewMap() {
                     <div className="cd-timeline-img cd-location">
                     </div> {/* cd-timeline-img */}
                     <div className="cd-timeline-content">
-                        <h2>Services</h2>
+                        <h3>Services</h3>
                         <ul>
-                            <li>LaunchBox - PRIFI products for entrepreneurs, startups</li>
+                            <li>LaunchBox - For entrepreneurs, startups</li>
                             <li>AnonCards - Anonymous debit cards</li>
                             <li>AnonPay - Pay crypto on sites that accept cards</li>
                             <li>Mascot - "Public Faces" for Anon projects</li>
@@ -55,7 +55,7 @@ export default function NewMap() {
                     <div className="cd-timeline-img cd-location">
                     </div>
                     <div className="cd-timeline-content">
-                        <h2>Investments and Grants</h2>
+                        <h3>Investments and Grants</h3>
                         <ul>
                             <li>Spectre Ventures</li>
                             <li>Hatchdeck - Incubator and launchpad</li>
@@ -67,7 +67,7 @@ export default function NewMap() {
                     <div className="cd-timeline-img cd-movie">
                     </div> {/* cd-timeline-img */}
                     <div className="cd-timeline-content">
-                        <h2>Gaming/Entertainment</h2>
+                        <h3>Gaming/Entertainment</h3>
                         <ul>
                             <li>Midas Gaming</li>
                             <li>Paracosm</li>
@@ -78,12 +78,11 @@ export default function NewMap() {
                     <div className="cd-timeline-img cd-picture">
                     </div>
                     <div className="cd-timeline-content">
-                    <h2>Experimental</h2>
+                    <h3>Experimental</h3>
                         <ul>
                             <li>eAntarctica</li>
-                            <li>Ghostwriter</li>
                             <li>Robinhood</li>
-                            <li>Ghost DNS + TLDs</li>
+                            <li>Ghost DNS</li>
                         </ul>
                     </div> {/* cd-timeline-content */}
                 </div> {/* cd-timeline-block */}

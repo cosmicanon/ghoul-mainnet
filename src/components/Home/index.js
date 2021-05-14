@@ -2,7 +2,7 @@ import React from "react";
 import {
   PrivacyFocused,
   SpeedSecurity,
-  StackGhost,
+  StakeGhoul,
   CreatedDistributed,
   Reward,
   Seo,
@@ -13,7 +13,7 @@ export const Home = () => (
     <Seo title="Homepage" />
     <PrivacyFocused />
     <SpeedSecurity />
-    <StackGhost />
+    <StakeGhoul />
     <CreatedDistributed />
     <Reward />
   </>

@@ -46,6 +46,9 @@ export const Navbar = (props) => {
           <Logo />
         </Link>
         <div className={classes.menubar}>
+          <Link className={`${classes.menubarLink} routerlink`} to="/staking">
+            Staking
+          </Link>          
           <Link className={`${classes.menubarLink} routerlink`} to="/roadmap">
             Roadmap
           </Link>

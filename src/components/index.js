@@ -1,5 +1,6 @@
 export * from "./Font";
 export * from "./Roadmap";
+export * from "./Staking";
 export * from "./SocialIcon";
 export * from "./Footer";
 export * from "./Footer/Divider";
@@ -9,7 +10,7 @@ export * from "./Home";
 export * from "./PrivacyFocused";
 export * from "./SpeedSecurity";
 export * from "./BtnWithArrow";
-export * from "./StackGhost";
+export * from "./StakeGhoul";
 export * from "./CreatedDistributed";
 export * from "./NewsCard";
 export * from "./DiveDeeper";

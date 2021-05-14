@@ -1,6 +1,6 @@
 const url =
   process.env.NODE_ENV === "production"
-    ? "https://poltergeist-ecosystem.herokuapp.com"
+    ? "https://ghoultoken.crypto"
     : "http://localhost:8000";
 
 export const logo = url + "/images/logo.svg";
@@ -17,9 +17,9 @@ export const privacyIconGreen = url + "/images/privacyIcon-green.svg";
 export const decentralizedIconGreen =
   url + "/images/DecentralizedIcon-green.svg";
 export const speedbgImgGreen = url + "/images/speedbgImgGreen.png";
-export const stakeGhostBg = url + "/images/StakeGhostBg.svg";
-export const stakeGhostBgVector1 = url + "/images/StakeGhostBgVector1.svg";
-export const stakeGhostBgVector2 = url + "/images/StakeGhostBgVector2.svg";
+export const stakeGhoulBg = url + "/images/StakeGhostBg.svg";
+export const stakeGhoulBgVector1 = url + "/images/StakeGhostBgVector1.svg";
+export const stakeGhoulBgVector2 = url + "/images/StakeGhostBgVector2.svg";
 export const ghostPriceLogo = url + "/images/ghostPriceLogo.svg";
 export const ghostCreatedDistributedImgGreen =
   url + "/images/ghostCreatedDistributedImg-green.svg";
