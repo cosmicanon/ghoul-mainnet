@@ -1,6 +1,7 @@
 const url =
   process.env.NODE_ENV === "production"
-    ? "https://ghoultoken.crypto"
+    // ? "https://ghoultoken.crypto"
+    ? "https://quizzical-noether-b652d0.netlify.app"
     : "http://localhost:8000";
 
 export const logo = url + "/images/logo.svg";
