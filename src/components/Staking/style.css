@@ -113,11 +113,9 @@
      margin: 0 0 0.8333333333em;
 }
  .button {
-     background-color: #9c83aa;
-     border-radius: 20px;
+     background-color: #31a569;
+     border-radius: 8px;
      color: #fff;
-     font-size: 1em;
-     font-weight: 700;
      padding: 0.75em 1.5em;
      position: absolute;
      bottom: 1em;
@@ -128,7 +126,7 @@
 }
  .btn-buy {
      background-color: #06a87e;
-     border-radius: 20px;
+     border-radius: 8px;
      color: #fff;
      font-weight: 700;
      padding: 0.75em 1.5em;
