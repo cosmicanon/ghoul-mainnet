@@ -1,12 +1,10 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Grid } from "@material-ui/core";
-
 import { Font } from "..";
 import { floatingIcon, background } from "../../images";
 import { PrivacyLeftSide } from "./PrivacyLeftSide";
-import { Lottie } from "..";
-import cloud from "./cloud_animation.json";
+
 
 const useStyles = makeStyles(theme => ({
   mainarea: {
@@ -72,22 +70,13 @@ export const PrivacyFocused = () => {
     <>
       <div className={classes.mainarea}>
         <div className={classes.mainareaBg} />
-        <div className="container">
+        <div className="container" id="soon">
           <Grid container className={classes.privacycontainer}>
             <Grid item lg={7} md={6} sm={12} xs={12}>
               <PrivacyLeftSide />
             </Grid>
             <Grid item lg={5} md={6} sm={12} xs={12}>
-              <Lottie
-                element={cloud}
-                defaultElement={
-                  <img
-                    className={classes.floatingIcon}
-                    src={floatingIcon}
-                    alt="floating icon"
-                  />
-                } 
-              />
+
             </Grid>
           </Grid>
         </div>

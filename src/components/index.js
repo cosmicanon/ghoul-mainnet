@@ -11,7 +11,7 @@ export * from "./PrivacyFocused";
 export * from "./SpeedSecurity";
 export * from "./BtnWithArrow";
 export * from "./StakeGhoul";
-export * from "./CreatedDistributed";
+export * from "./Tokenomics";
 export * from "./NewsCard";
 export * from "./DiveDeeper";
 export * from "./Reward";

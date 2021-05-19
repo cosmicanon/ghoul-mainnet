@@ -1,10 +1,8 @@
 import React from "react";
 import {
   PrivacyFocused,
-  SpeedSecurity,
   StakeGhoul,
-  CreatedDistributed,
-  Reward,
+  Tokenomics,
   JoinCommunity,
   Seo,
 } from "..";
@@ -13,8 +11,7 @@ export const Home = () => (
   <>
     <Seo title="Ghoul Ecosystem" />
     <PrivacyFocused />
-    <SpeedSecurity />
-    <CreatedDistributed />
+    <Tokenomics />
     <StakeGhoul />
     <JoinCommunity />
   </>

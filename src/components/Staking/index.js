@@ -94,13 +94,6 @@ const useStyles = makeStyles((theme) => ({
       width: "calc(100% - 15px)",
     },
   },
-  downloadBtn: {
-    width: 140,
-    border: "1px solid #FFFFFF",
-    "&:hover": {
-      backgroundColor: "rgba(255,255,255, 0.15)",
-    },
-  },
   mintFocus: {
     color: "#56ff99",
   },
@@ -132,7 +125,7 @@ export default function StakingTiers() {
         	</p>
 
            <div className={classes.btnsWrapper}>
-              <a target="_blank" href="https://app.uniswap.org/#/swap?use=V2&&exactAmount=36.99&inputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f&outputCurrency=0x3bb86d867a9f3addf994cdadb210fa82f0d4157a" className={classes.btnLink}>
+              <a target="_blank"  rel="noreferrer" href="https://app.uniswap.org/#/swap?use=V2&&exactAmount=36.99&inputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f&outputCurrency=0x3bb86d867a9f3addf994cdadb210fa82f0d4157a" className={classes.btnLink}>
                 <Button
                   variant="contained"
                   color="secondary"
@@ -166,7 +159,7 @@ export default function StakingTiers() {
 	                            <li>Surprise Airdrops</li>
 	                            <li>Governance Voting</li>
 	                        </ul>
-	                        <a href="/" className="button">Stake Now</a>
+	                        
 	                    </div>
 	                    <div className="grid-1-3" style={{ marginLeft: '10px', marginBottom: '30px' }}>
 	                        <img className="goul-icon-b" src="https://poltergeistexchange.com/static/media/logo.c4de8924.svg" alt="Poltergeist Exchange" height={50} />
@@ -180,7 +173,7 @@ export default function StakingTiers() {
 	                            <li>Governance Voting</li>
 	                            <li>Early access to PRIFI Dapps</li>
 	                        </ul>
-	                        <a href="/" className="button">Stake Now</a>
+	                        
 	                    </div>
 	            </div>
 

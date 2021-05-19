@@ -124,7 +124,7 @@ export const PrivacyLeftSide = () => {
         <div className={classes.btnsWrapper}>
           <a
             href="https://app.uniswap.org/#/swap?use=V2&&exactAmount=36.99&inputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f&outputCurrency=0x3bb86d867a9f3addf994cdadb210fa82f0d4157a"
-            target="_blank"
+            target="_blank"  rel="noreferrer"
             className={classes.btnLink}
           >
             <Button
@@ -152,7 +152,7 @@ export const PrivacyLeftSide = () => {
             </Button>
           </a>
         </div>
-        <div id="soon" className={classes.btnsWrapper}>
+        <div className={classes.btnsWrapper}>
           <a href="#soon" className={classes.btnLink}>
             <Button
               variant="contained"

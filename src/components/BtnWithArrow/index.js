@@ -1,8 +1,10 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Typography } from "@material-ui/core";
+import { Typography, Button } from "@material-ui/core";
 
 import { Font } from "..";
+import { logo } from "../../images";
+
 
 const useStyles = makeStyles((theme) => ({
   titleSvg: {
@@ -33,12 +35,63 @@ const useStyles = makeStyles((theme) => ({
       paddingRight: 10,
     },
   },
-  svg: {
+
+
+  btnarea: {
+    marginTop: 50,
+
+    marginLeft: -16,
     [theme.breakpoints.down("sm")]: {
-      height: 12,
-      width: 18,
+      flexFlow: "row",
+      justifyContent: "center",
+      marginTop: "35px",
+      marginLeft: "-8px",
     },
   },
+  btnLink: {
+    [theme.breakpoints.down("sm")]: {
+      "& button": {
+        marginTop: "15px",
+      },
+    },
+  },
+  btnsWrapper: {
+    marginTop: "15px",
+    [theme.breakpoints.down("sm")]: {
+      marginTop: "0px",
+      width: "100%",
+    },
+  },
+  btnCommon: {
+    width: "196px",
+    height: "48px",
+    borderRadius: 8,
+    marginLeft: 16,
+    textTransform: "capitalize",
+    color: "white",
+    [theme.breakpoints.down("md")]: {
+      width: "180px",
+      fontSize: Font.size12,
+    },
+    [theme.breakpoints.down("sm")]: {
+      marginLeft: "8px",
+      width: "calc(100% - 25px)",
+    },
+  },
+  downloadBtn: {
+    width: 160,
+    border: "1px solid #FFFFFF",
+    "&:hover": {
+      backgroundColor: "rgba(255,255,255, 0.15)",
+    },
+  },
+  mintFocus: {
+    color: "#56ff99",
+  },
+
+
+
+
 }));
 
 export const BtnWithArrow = (props) => {
@@ -46,20 +99,30 @@ export const BtnWithArrow = (props) => {
   return (
     <div className={classes.titleSvg} style={{ ...props.style }}>
       <Typography className={classes.title}>{props.title}</Typography>
-      <div style={{ marginTop: 3 }}>
-        <svg
-          width="26"
-          height="12"
-          viewBox="0 0 26 12"
-          // fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          className={classes.svg}
-        >
-          <path
-            d="M25.5333 6.53033C25.8262 6.23743 25.8262 5.76256 25.5333 5.46967L20.7603 0.696697C20.4674 0.403804 19.9925 0.403804 19.6996 0.696697C19.4067 0.989591 19.4067 1.46446 19.6996 1.75736L23.9423 6L19.6996 10.2426C19.4067 10.5355 19.4067 11.0104 19.6996 11.3033C19.9925 11.5962 20.4674 11.5962 20.7603 11.3033L25.5333 6.53033ZM0.00292975 6.75L25.0029 6.75L25.0029 5.25L0.00292962 5.25L0.00292975 6.75Z"
-            //   fill="#FFFFFE"
-          />
-        </svg>
+      <div className={classes.btnarea}>
+        <div className={classes.btnsWrapper}>
+          <a
+            href="https://app.uniswap.org/#/swap?use=V2&&exactAmount=36.99&inputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f&outputCurrency=0x3bb86d867a9f3addf994cdadb210fa82f0d4157a"
+            target="_blank"  rel="noreferrer"
+            className={classes.btnLink}
+          >
+            <Button
+              variant="contained"
+              color="secondary"
+              className={classes.btnCommon}
+              style={{ width: 225 }}
+            >
+              <img
+                src={logo}
+                alt="logo"
+                style={{ width: 20, marginRight: 8 }}
+              />
+              Buy $GHOUL{" "}
+            </Button>
+          </a>
+
+        </div>
+
       </div>
     </div>
   );
