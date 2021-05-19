@@ -137,7 +137,7 @@ export const PrivacyLeftSide = () => {
             </Button>
           </a>
 
-          <a href="/assets/GHOUL_Ecosystem_Darkpaper.txt" className={classes.btnLink}>
+          <a href="/assets/GHOUL_Ecosystem_Darkpaper.pdf" className={classes.btnLink}>
             <Button
               variant="contained"
               color="primary"

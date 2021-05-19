@@ -58,7 +58,7 @@ export const Navbar = (props) => {
           <Link className={`${classes.menubarLink} routerlink`} to="/roadmap">
             Roadmap
           </Link>
-          <Link className={`${classes.menubarLink} routerlink`} to="/assets/GHOUL_Ecosystem_Darkpaper.txt">
+          <Link className={`${classes.menubarLink} routerlink`} to="/assets/GHOUL_Ecosystem_Darkpaper.pdf">
             Darkpaper
           </Link>
         </div>

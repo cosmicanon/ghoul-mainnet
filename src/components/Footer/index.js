@@ -101,7 +101,7 @@ export const Footer = (props) => {
                 <Link to="/roadmap" className={classes.navbarText}>
                   <Typography>Roadmap</Typography>
                 </Link>
-                <Link to="/assets/GHOUL_Ecosystem_Darkpaper.txt" className={classes.navbarText}>
+                <Link to="/assets/GHOUL_Ecosystem_Darkpaper.pdf" className={classes.navbarText}>
                   <Typography>Darkpaper</Typography>
                 </Link>
               </div>
