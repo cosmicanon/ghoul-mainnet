@@ -32,7 +32,6 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   description: {
-    fontSize: Font.m,
     color: theme.palette.secondary.textColor,
     width: 340,
     marginTop: 18,

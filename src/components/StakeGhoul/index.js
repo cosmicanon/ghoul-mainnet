@@ -8,7 +8,6 @@ import { stakeGhoulBg } from "../../images";
 
 const useStyles = makeStyles((theme) => ({
   body: {
-    paddingTop: 100,
     position: "relative",
     [theme.breakpoints.down("xs")]: {
       paddingTop: 50,
@@ -33,22 +32,7 @@ const useStyles = makeStyles((theme) => ({
       paddingBottom: 0,
     },
   },
-  StakeGhostBgVector1: {
-    position: "absolute",
-    top: 600,
-    right: 0,
-    [theme.breakpoints.down("sm")]: {
-      display: "none",
-    },
-  },
-  StakeGhostBgVector2: {
-    position: "absolute",
-    top: 690,
-    right: 0,
-    [theme.breakpoints.down("sm")]: {
-      display: "none",
-    },
-  },
+
 }));
 
 export const StakeGhoul = () => {

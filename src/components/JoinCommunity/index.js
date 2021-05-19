@@ -6,15 +6,12 @@ import RedditIcon from "@material-ui/icons/Reddit";
 import TelegramIcon from "@material-ui/icons/Telegram";
 import { Footer } from "..";
 import { Font } from "..";
-import { logo, joinCommunityDiscordLogo, stakeGhostBg } from "../../images";
+import { logo, joinCommunityDiscordLogo } from "../../images";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    paddingTop: 300,
+    paddingTop: 200,
     [theme.breakpoints.up("md")]: {
-      backgroundImage: `url(${stakeGhostBg})`,
-      backgroundRepeat: "no-repeat",
-      backgroundSize: "cover",
     },
     [theme.breakpoints.down("sm")]: {
       paddingTop: 50,
@@ -27,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
   },
   logo: {
-    width: 50,
+    width: 100,
   },
   title: {
     fontSize: Font.l,
@@ -43,7 +40,6 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   description: {
-    fontSize: Font.m,
     color: theme.palette.secondary.textColor,
     marginTop: 8,
     width: 550,
@@ -62,7 +58,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     alignItems: "center",
     marginTop: 35,
-    paddingBottom: 315,
+    paddingBottom: 185,
     [theme.breakpoints.down("xs")]: {
       paddingBottom: 70,
     },
@@ -178,7 +174,7 @@ export const JoinCommunity = () => {
                   item
                   md={4}
                   sm={4}
-                  xs={6}
+                  xs={12}
                   key={2}
                   style={{ textAlign: "center" }}
                 >

@@ -11,14 +11,14 @@ const useStyles = makeStyles((theme) => ({
   navContainer: {
     margin: "auto",
     maxWidth: 1110,
-    minHeight: 80,
+    minHeight: 90,
     color: "#fff",
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
     padding: "0 20px",
     [theme.breakpoints.down("xs")]: {
-      minHeight: 70,
+      minHeight: 80,
       padding: "0 10px",
     },
   },
@@ -75,7 +75,7 @@ export const Footer = (props) => {
     <div style={{ ...props.style }}>
       <div className={classes.navContainer}>
         <Grid container align="center" justify="center" direction="row">
-          <Grid item md={6} sm={12} xs={12}>
+          <Grid item md={4} sm={12} xs={12}>
             <div className={classes.logoAreaContainer}>
               <div className={classes.logoArea}>
                 <img alt="Logo" src={logo} className={classes.logo} />&nbsp;&nbsp;<h3>Ghoul</h3>
@@ -89,7 +89,7 @@ export const Footer = (props) => {
             </div>
             <br />
           </Grid>
-          <Grid item md={3} sm={6} xs={12}>
+          <Grid item md={4} sm={6} xs={12}>
             <div className={classes.logoAreaContainer} style={{ marginTop: '30px' }}>
               <Typography className={classes.title}>Getting Started</Typography>
               <div className={classes.nav}>
@@ -109,7 +109,7 @@ export const Footer = (props) => {
               <br />
             </div>
           </Grid>
-          <Grid item md={3} sm={6} xs={12}>
+          <Grid item md={4} sm={6} xs={12}>
             <div className={classes.logoAreaContainer} style={{ marginTop: '30px' }}>
               <Typography className={classes.title}>Resources</Typography>
               <div className={classes.nav}>

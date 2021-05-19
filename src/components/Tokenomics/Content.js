@@ -60,7 +60,6 @@ const useStyles = makeStyles(theme => ({
   listDescription: {
     marginTop: 10,
     color: theme.palette.secondary.textColor,
-    fontSize: Font.sm,
     [theme.breakpoints.down("sm")]: {
       width: "auto",
       marginTop: 0,
@@ -94,7 +93,7 @@ export const Content = () => {
             </li>
             <li>Circulating Supply: 42008631 GHOUL</li>
             <li>
-              ETH Token:{" "}
+              ETH:{" "}
               <a
                 style={{ color: "#56ff99" }}
                 href="https://etherscan.io/token/0x3bb86d867a9f3addf994cdadb210fa82f0d4157a"
