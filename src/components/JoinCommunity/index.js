@@ -10,7 +10,7 @@ import { logo, joinCommunityDiscordLogo } from "../../images";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    paddingTop: 200,
+    paddingTop: 100,
     [theme.breakpoints.up("md")]: {
     },
     [theme.breakpoints.down("sm")]: {
