@@ -5,16 +5,17 @@ import {
   StakeGhoul,
   CreatedDistributed,
   Reward,
+  JoinCommunity,
   Seo,
 } from "..";
 
 export const Home = () => (
   <>
-    <Seo title="Homepage" />
+    <Seo title="Ghoul Ecosystem" />
     <PrivacyFocused />
     <SpeedSecurity />
-    <StakeGhoul />
     <CreatedDistributed />
-    <Reward />
+    <StakeGhoul />
+    <JoinCommunity />
   </>
 );

@@ -11,8 +11,6 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
   },
   logo: {
-    width: 30,
-    height: 30,
     overflow: "visible",
     [theme.breakpoints.down("xs")]: {
       width: 20,
@@ -20,11 +18,11 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   logoText: {
-    marginLeft: 17,
+    marginLeft: 9,
     fontSize: Font.size25,
     [theme.breakpoints.down("xs")]: {
       fontSize: Font.size16,
-      marginLeft: 10,
+      marginLeft: 5,
     },
   },
 }));
@@ -34,7 +32,7 @@ export const Logo = () => {
   return (
     <div className={classes.logoArea}>
       <Avatar alt="Logo" src={logo} className={classes.logo} />
-      <Typography className={classes.logoText}>Poltergeist Labs</Typography>
+      <Typography className={classes.logoText}>Ghoul</Typography>
     </div>
   );
 };

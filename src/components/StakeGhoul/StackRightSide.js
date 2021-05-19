@@ -52,7 +52,7 @@ const useStyles = makeStyles((theme) => ({
 export const StackRightSide = () => {
   const classes = useStyles();
   return (
-    <div className={classes.constainer}>
+    <div className={classes.constainer} id="staking">
       <Typography className={classes.title}>Staking</Typography>
       <Typography className={classes.description}>
         Stake your GHOUL on Poltergeist Exchange for governance voting and earning rewards within the ecosystem.
@@ -67,10 +67,8 @@ export const StackRightSide = () => {
       </a>
 
 
-      <a
-        href="/"
-        // rel="noreferrer"
-        // target="_blank"
+      <a target="_blank"
+        href="https://app.uniswap.org/#/swap?use=V2&&exactAmount=36.99&inputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f&outputCurrency=0x3bb86d867a9f3addf994cdadb210fa82f0d4157a"
       >
         <BtnWithArrow title="Buy $GHOUL" />
       </a>

@@ -4,7 +4,7 @@ import { Grid, Typography, Button } from "@material-ui/core";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import RedditIcon from "@material-ui/icons/Reddit";
 import TelegramIcon from "@material-ui/icons/Telegram";
-
+import { Footer } from "..";
 import { Font } from "..";
 import { logo, joinCommunityDiscordLogo, stakeGhostBg } from "../../images";
 
@@ -121,6 +121,9 @@ export const JoinCommunity = () => {
               Join our Community
             </Typography>
             <Typography className={classes.description}>
+               We are open to contributions and collaborations of any creative ideas
+                and concepts that aligns and expands the vision for the ecosystem. 
+                We respect that it's your personal choice whether you remain anonymous or not.<br/><br/>
               Let's BUIDL and grow something awesome together!
             </Typography>
             <div className={classes.btn}>
@@ -225,6 +228,7 @@ export const JoinCommunity = () => {
             </div>
           </div>
         </div>
+        <Footer style={{ paddingTop: 50 }} />
       </div>
     </div>
   );

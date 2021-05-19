@@ -26,7 +26,7 @@ export const CreatedDistributed = () => {
   const classes = useStyles();
   return (
     <div className={classes.body}>
-      <div className="container">
+      <div className="container" id="tokenomics">
         <Grid container>
           <Grid item md={6} xs={12}>
             <img

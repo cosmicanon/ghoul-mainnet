@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   logoArea: {
-    display: "flex",
+    display: "inline-flex",
     alignItems: "center",
   },
   logo: {
@@ -74,10 +74,10 @@ export const Footer = (props) => {
     <div style={{ ...props.style }}>
       <div className={classes.navContainer}>
         <Grid container align="center" justify="center" direction="row">
-          <Grid item md={6} sm={6} xs={12}>
+          <Grid item md={6} sm={12} xs={12}>
             <div className={classes.logoAreaContainer}>
               <div className={classes.logoArea}>
-                <img alt="Logo" src={logo} className={classes.logo} />&nbsp;&nbsp;<h3>Poltergeist Labs</h3>
+                <img alt="Logo" src={logo} className={classes.logo} />&nbsp;&nbsp;<h3>Ghoul</h3>
               </div>
               <Typography className={classes.description}>
                 Privacy Focused Ecosystem & Untraceable Stablecoin
@@ -88,19 +88,36 @@ export const Footer = (props) => {
             </div>
             <br />
           </Grid>
-          <Grid item md={6} sm={6} xs={12}>
+          <Grid item md={3} sm={6} xs={12}>
             <div className={classes.logoAreaContainer} style={{ marginTop: '30px' }}>
               <Typography className={classes.title}>Getting Started</Typography>
               <div className={classes.nav}>
-                <Link to="/staking" className={classes.navbarText}>
+                <Link to="/#tokenomics" className={classes.navbarText}>
+                  <Typography>Tokenomics</Typography>
+                </Link>                 
+                <Link to="/#staking" className={classes.navbarText}>
                   <Typography>Staking</Typography>
                 </Link>                
                 <Link to="/roadmap" className={classes.navbarText}>
                   <Typography>Roadmap</Typography>
                 </Link>
-                <Link to="/faq" className={classes.navbarText}>
-                  <Typography>FAQ</Typography>
+                <Link to="/assets/GHOUL_Ecosystem_Darkpaper.txt" className={classes.navbarText}>
+                  <Typography>Darkpaper</Typography>
                 </Link>
+              </div>
+              <br />
+            </div>
+          </Grid>
+          <Grid item md={3} sm={6} xs={12}>
+            <div className={classes.logoAreaContainer} style={{ marginTop: '30px' }}>
+              <Typography className={classes.title}>Resources</Typography>
+              <div className={classes.nav}>
+                <Link to="https://etherscan.io/token/0x3bb86d867a9f3addf994cdadb210fa82f0d4157a" className={classes.navbarText}>
+                  <Typography>Ghoul ETH Contract</Typography>
+                </Link>                
+                <Link to="https://app.uniswap.org/#/swap?use=V2&&exactAmount=36.99&inputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f&outputCurrency=0x3bb86d867a9f3addf994cdadb210fa82f0d4157a" className={classes.navbarText}>
+                  <Typography>Ghoul on Uniswap</Typography>
+                </Link>                
               </div>
               <br />
             </div>

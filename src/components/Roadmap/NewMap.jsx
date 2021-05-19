@@ -8,7 +8,7 @@ export default function NewMap() {
                     <div className="cd-timeline-img cd-picture">
                     </div>
                     <div className="cd-timeline-content">
-                        <h3>PRIFI</h3>
+                        <h3>Foundation</h3>
                         <ul >
                             <li>Poltergeist Exchange</li>
                             <li>AnonSwap</li>
@@ -43,9 +43,9 @@ export default function NewMap() {
                     <div className="cd-timeline-content">
                         <h3>Services</h3>
                         <ul>
-                            <li>LaunchBox - For entrepreneurs, startups</li>
+                            <li>LaunchBox - For entrepreneurs, projects</li>
                             <li>AnonCards - Anonymous debit cards</li>
-                            <li>AnonPay - Pay crypto on sites that accept cards</li>
+                            <li>AnonPay - Pay with privacy cryptos</li>
                             <li>Mascot - "Public Faces" for Anon projects</li>
                             <li>Communiti - Real estate development</li>
                         </ul>

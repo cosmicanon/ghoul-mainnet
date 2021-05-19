@@ -64,12 +64,21 @@ export const Hamburger = (props) => {
             x
           </Typography>
           <div>
-            <Link className={`${classes.menubarLink} routerlink`} to="/roadmap">
-              Roadmap
-            </Link>
-            <Link className={`${classes.menubarLink} routerlink`} to="/faq">
-              FAQ
-            </Link>
+          <Link className={`${classes.menubarLink} routerlink`} to="/#">
+            Home
+          </Link>          
+          <Link className={`${classes.menubarLink} routerlink`} to="/#tokenomics">
+            Tokenomics
+          </Link>
+          <Link className={`${classes.menubarLink} routerlink`} to="/#staking">
+            Staking
+          </Link>          
+          <Link className={`${classes.menubarLink} routerlink`} to="/roadmap">
+            Roadmap
+          </Link>
+          <Link className={`${classes.menubarLink} routerlink`} to="/assets/GHOUL_Ecosystem_Darkpaper.txt">
+            Darkpaper
+          </Link>
           </div>
         </div>
       </Modal>

@@ -52765,7 +52765,7 @@ var plugins = [{
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": "4a9773549091c227cd2eb82ccd9c5e3a"
+    "cacheDigest": "0827aa9886ce9a401a4ad2813e4de9f7"
   }
 }, {
   name: 'gatsby-theme-material-ui-top-layout',

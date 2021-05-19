@@ -94,7 +94,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   downloadBtn: {
-    width: 140,
+    width: 160,
     border: "1px solid #FFFFFF",
     "&:hover": {
       backgroundColor: "rgba(255,255,255, 0.15)",
@@ -121,7 +121,7 @@ export const PrivacyLeftSide = () => {
       </Typography>
       <div className={classes.btnarea}>
         <div className={classes.btnsWrapper}>
-          <a href="#0" className={classes.btnLink}>
+          <a href="https://app.uniswap.org/#/swap?use=V2&&exactAmount=36.99&inputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f&outputCurrency=0x3bb86d867a9f3addf994cdadb210fa82f0d4157a"  target="_blank" className={classes.btnLink}>
             <Button
               variant="contained"
               color="secondary"
@@ -137,7 +137,7 @@ export const PrivacyLeftSide = () => {
             </Button>
           </a>
 
-          <a href="#0" className={classes.btnLink}>
+          <a href="/assets/GHOUL_Ecosystem_Darkpaper.txt" className={classes.btnLink}>
             <Button
               variant="contained"
               color="primary"
@@ -147,8 +147,8 @@ export const PrivacyLeftSide = () => {
             </Button>
           </a>
         </div>
-        <div className={classes.btnsWrapper}>
-          <a href="#0" className={classes.btnLink}>
+        <div id="soon" className={classes.btnsWrapper}>
+          <a href="#soon" className={classes.btnLink}>
             <Button
               variant="contained"
               color="secondary"
