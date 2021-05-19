@@ -36,6 +36,16 @@ export const StackRightSide = () => {
                     alt="Ghoul Staking"
                   />
                 } 
+              />      
+                    <Lottie
+                element={ghoulfly}
+                defaultElement={
+                  <img
+                    className={classes.floatingIcon}
+                    src={floatingIcon}
+                    alt="Ghoul Staking"
+                  />
+                } 
               />
     </div>
   );
