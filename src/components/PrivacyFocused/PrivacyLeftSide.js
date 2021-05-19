@@ -4,6 +4,7 @@ import { Typography, Button } from "@material-ui/core";
 
 import { SocialIcon, Font } from "..";
 import { logo } from "../../images";
+import { darkpaper } from "../../data";
 
 const useStyles = makeStyles((theme) => ({
   title: {
@@ -90,7 +91,7 @@ const useStyles = makeStyles((theme) => ({
     },
     [theme.breakpoints.down("sm")]: {
       marginLeft: "8px",
-      width: "calc(100% - 15px)",
+      width: "calc(100% - 25px)",
     },
   },
   downloadBtn: {
@@ -113,7 +114,7 @@ export const PrivacyLeftSide = () => {
   return (
     <div>
       <Typography className={classes.title}>
-        Privacy-Focused Ecosystem{" "}
+        Privacy Focused Ecosystem{" "}
         <span className={classes.title2}>& Untraceable Stablecoin</span>
       </Typography>
       <Typography className={classes.description}>
@@ -137,7 +138,7 @@ export const PrivacyLeftSide = () => {
             </Button>
           </a>
 
-          <a href="/assets/GHOUL_Ecosystem_Darkpaper.pdf" className={classes.btnLink}>
+          <a href={darkpaper} className={classes.btnLink}>
             <Button
               variant="contained"
               color="primary"

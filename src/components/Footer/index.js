@@ -5,6 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 import { Font, SocialIcon } from "..";
 import { logo } from "../../images";
+import { darkpaper } from "../../data";
 
 const useStyles = makeStyles((theme) => ({
   navContainer: {
@@ -101,7 +102,7 @@ export const Footer = (props) => {
                 <Link to="/roadmap" className={classes.navbarText}>
                   <Typography>Roadmap</Typography>
                 </Link>
-                <Link to="/assets/GHOUL_Ecosystem_Darkpaper.pdf" className={classes.navbarText}>
+                <Link to={darkpaper} className={classes.navbarText}>
                   <Typography>Darkpaper</Typography>
                 </Link>
               </div>

@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import { makeStyles } from "@material-ui/core/styles";
 
 import { Logo } from "./Logo";
+import { darkpaper } from "../../data";
 import { Hamburger } from "./Hamburger";
 
 const useStyles = makeStyles((theme) => ({
@@ -58,7 +59,7 @@ export const Navbar = (props) => {
           <Link className={`${classes.menubarLink} routerlink`} to="/roadmap">
             Roadmap
           </Link>
-          <Link className={`${classes.menubarLink} routerlink`} to="/assets/GHOUL_Ecosystem_Darkpaper.pdf">
+          <Link className={`${classes.menubarLink} routerlink`} to={darkpaper}>
             Darkpaper
           </Link>
         </div>

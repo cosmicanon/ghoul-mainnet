@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Ghoul`,
     description: `Privacy Focused Ecosystem and Untraceable Stablecoin`,
-    author: `@gatsbyjs`,
+    author: `Poltergeist Labs`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
