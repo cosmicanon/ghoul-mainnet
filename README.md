@@ -1,14 +1,14 @@
 <p align="center">
   <a href="https://ghoultoken.crypto">
-    <img alt="Ghoul" src="https://poltergeistexchange.com/static/media/logo.c4de8924.svg" width="60" />
+    <img alt="Ghoul" src="https://ghoultoken.io/images/logo.png" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Poltergeist Labs - Ghoul Token
+  Poltergeist Labs - Ghoul Ecosystem
 </h1>
 
 
-* Website: [https://ghoultoken.crypto](https://ghoultoken.crypto)
+* Website: [https://ghoultoken.io](https://ghoultoken.io)
 * Telegram: [https://t.me/poltergeistexchange](https://t.me/poltergeistexchange)
 
 
