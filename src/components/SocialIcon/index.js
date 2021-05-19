@@ -33,25 +33,17 @@ export const SocialIcon = (props) => {
           <TwitterIcon className={classes.socialIcon} />
         </IconButton>
       </a>
-      <a href="/">
-        <IconButton style={{ paddingRight: buttonPadding }}>
-          <CardMedia
-            className={classes.discordIcon}
-            image={discord}
-            title="DiscordLogo"
-          />
-        </IconButton>
-      </a>
-      <a href="/">
-        <IconButton style={{ paddingRight: buttonPadding }}>
-          <RedditIcon className={classes.socialIcon} />
-        </IconButton>
-      </a>
       <a href="https://t.me/poltergeistexchange">
         <IconButton style={{ paddingRight: buttonPadding }}>
           <TelegramIcon className={classes.socialIcon} />
         </IconButton>
       </a>
+      <a href="https://www.reddit.com/r/PoltergeistDEX/">
+        <IconButton style={{ paddingRight: buttonPadding }}>
+          <RedditIcon className={classes.socialIcon} />
+        </IconButton>
+      </a>
+
     </div>
   );
 };

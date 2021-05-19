@@ -130,66 +130,16 @@ export const JoinCommunity = () => {
               <Grid spacing={2} container>
                 <Grid
                   item
-                  md={3}
-                  sm={3}
+                  md={4}
+                  sm={4}
                   xs={6}
                   key={0}
                   style={{ textAlign: "center" }}
                 >
                   <a
-                    href="/"
-                    // rel="noreferrer"
-                    // target="_blank"
-                  >
-                    <Button
-                      variant="contained"
-                      color="primary"
-                      className={classes.button}
-                    >
-                      <TelegramIcon style={{ marginRight: 10 }} />
-                      Telegram
-                    </Button>
-                  </a>
-                </Grid>
-                <Grid
-                  item
-                  md={3}
-                  sm={3}
-                  xs={6}
-                  key={1}
-                  style={{ textAlign: "center" }}
-                >
-                  <a
-                    href="/"
-                    // rel="noreferrer"
-                    // target="_blank"
-                  >
-                    <Button
-                      variant="contained"
-                      color="primary"
-                      className={classes.button}
-                    >
-                      <img
-                        src={joinCommunityDiscordLogo}
-                        alt="Discord Icom"
-                        style={{ marginRight: 10 }}
-                      />
-                      Discord
-                    </Button>
-                  </a>
-                </Grid>
-                <Grid
-                  item
-                  md={3}
-                  sm={3}
-                  xs={6}
-                  key={2}
-                  style={{ textAlign: "center" }}
-                >
-                  <a
-                    href="/"
-                    // rel="noreferrer"
-                    // target="_blank"
+                    href="https://twitter.com/PoltergeistDEX"
+                    rel="noreferrer"
+                    target="_blank"
                   >
                     <Button
                       variant="contained"
@@ -203,16 +153,40 @@ export const JoinCommunity = () => {
                 </Grid>
                 <Grid
                   item
-                  md={3}
-                  sm={3}
+                  md={4}
+                  sm={4}
                   xs={6}
-                  key={3}
+                  key={1}
                   style={{ textAlign: "center" }}
                 >
                   <a
-                    href="/"
-                    // rel="noreferrer"
-                    // target="_blank"
+                    href="https://t.me/poltergeistexchange"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <Button
+                      variant="contained"
+                      color="primary"
+                      className={classes.button}
+                    >
+                      <TelegramIcon style={{ marginRight: 10 }} />
+                      Telegram
+                    </Button>
+                  </a>
+                </Grid>
+                <Grid
+                  item
+                  md={4}
+                  sm={4}
+                  xs={6}
+                  key={2}
+                  style={{ textAlign: "center" }}
+                >
+
+                  <a
+                    href="https://www.reddit.com/r/PoltergeistDEX/"
+                    rel="noreferrer"
+                    target="_blank"
                   >
                     <Button
                       variant="contained"
