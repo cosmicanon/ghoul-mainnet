@@ -87,10 +87,7 @@ export const Content = () => {
             <li>Initial Supply: 100000000 GHOUL</li>
             <li>Burned Supply: 42991369 GHOUL</li>
             <li>Final Supply: 57008631 GHOUL</li>
-            <li>
-              Locked Dev Fund: 15000000 GHOUL <br />
-              (until ETH Block XXXXXXXX)
-            </li>
+            <li>Locked Dev Fund: 15000000 GHOUL</li>
             <li>Circulating Supply: 42008631 GHOUL</li>
             <li>
               ETH:{" "}
