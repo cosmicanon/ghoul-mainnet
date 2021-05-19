@@ -175,7 +175,8 @@ export default function StakingTiers() {
 	                        <hr /><br />
 	                        <ul>
 	                            <li>Poltergeist Profit Sharing</li>
-	                            <li>Exclusive Airdrops</li>
+	                            <li>Higher Staking APR</li>
+                              <li>Exclusive Airdrops</li>
 	                            <li>Governance Voting</li>
 	                            <li>Early access to PRIFI Dapps</li>
 	                        </ul>

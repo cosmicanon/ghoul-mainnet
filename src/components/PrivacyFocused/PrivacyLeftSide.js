@@ -54,8 +54,7 @@ const useStyles = makeStyles(theme => ({
   },
   btnarea: {
     marginTop: 50,
-    display: "flex",
-    flexFlow: "column",
+
     marginLeft: -16,
     [theme.breakpoints.down("sm")]: {
       flexFlow: "row",

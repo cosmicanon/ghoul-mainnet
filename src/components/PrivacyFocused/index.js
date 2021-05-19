@@ -86,7 +86,7 @@ export const PrivacyFocused = () => {
                     src={floatingIcon}
                     alt="floating icon"
                   />
-                }
+                } 
               />
             </Grid>
           </Grid>

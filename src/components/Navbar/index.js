@@ -53,7 +53,7 @@ export const Navbar = (props) => {
           <Link className={`${classes.menubarLink} routerlink`} to="/#tokenomics">
             Tokenomics
           </Link>
-          <Link className={`${classes.menubarLink} routerlink`} to="/#staking">
+          <Link className={`${classes.menubarLink} routerlink`} to="/staking">
             Staking
           </Link>          
           <Link className={`${classes.menubarLink} routerlink`} to="/roadmap">
