@@ -1,9 +1,9 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Grid } from "@material-ui/core";
-import { Lottie } from "..";
-import cloud from "./cloud_animation.json";
 import { floatingIcon } from "../../images";
+import { Lottie } from "..";
+import floating from "./floating_anim.json";
 import { Content } from "./Content";
 
 const useStyles = makeStyles((theme) => ({
@@ -32,12 +32,12 @@ export const Tokenomics = () => {
           <Grid item md={6} xs={12}>
 
               <Lottie
-                element={cloud}
+                element={floating}
                 defaultElement={
                   <img
                     className={classes.floatingIcon}
                     src={floatingIcon}
-                    alt="Ghoul tokenomics"
+                    alt="Ghoul Tokenomics"
                   />
                 } 
               />

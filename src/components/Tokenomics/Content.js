@@ -65,6 +65,12 @@ const useStyles = makeStyles(theme => ({
       marginTop: 0,
     },
   },
+  tokenLogo: {
+    height: 50,
+    width: 60,
+    display: "block",
+    },
+
 }));
 
 export const Content = () => {
@@ -75,7 +81,9 @@ export const Content = () => {
 
       <div>
         <div className={classes.list}>
-          <Typography className={classes.listNumber}>$GHOUL</Typography>
+          <Typography className={classes.listNumber}>
+            $GHOUL
+          </Typography>
         </div>
         <Typography className={classes.listDescription}>
           The ecosystem’s profit sharing, governance and utility token. Benefits

@@ -1,9 +1,11 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Card } from "@material-ui/core";
-import { floatingIcon } from "../../images";
+import { flyingIcon } from "../../images";
+import { flyingIcon1 } from "../../images";
 import { Lottie } from "..";
-import ghoulfly from "./ghoul-fly.json";
+import ghoulfly from "./ghoul_fly.json";
+import ghoulfly1 from "./ghoul_fly1.json";
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -31,18 +33,18 @@ export const StackRightSide = () => {
                 element={ghoulfly}
                 defaultElement={
                   <img
-                    className={classes.floatingIcon}
-                    src={floatingIcon}
+                    className={classes.flyingIcon}
+                    src={flyingIcon}
                     alt="Ghoul Staking"
                   />
                 } 
               />      
                     <Lottie
-                element={ghoulfly}
+                element={ghoulfly1}
                 defaultElement={
                   <img
-                    className={classes.floatingIcon}
-                    src={floatingIcon}
+                    className={classes.flyingIcon1}
+                    src={flyingIcon}
                     alt="Ghoul Staking"
                   />
                 } 
