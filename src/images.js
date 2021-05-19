@@ -1,8 +1,4 @@
-const url =
-  process.env.NODE_ENV === "production"
-    // ? "https://ghoultoken.crypto"
-    ? "https://ghoultoken.io"
-    : "http://localhost:8000";
+import { url } from "./data";
 
 export const logo = url + "/images/logo.png";
 export const background = url + "/images/background.png";

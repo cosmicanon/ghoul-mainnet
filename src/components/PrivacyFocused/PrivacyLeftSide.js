@@ -6,7 +6,7 @@ import { SocialIcon, Font } from "..";
 import { logo } from "../../images";
 import { darkpaper } from "../../data";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(theme => ({
   title: {
     fontSize: Font.l,
     fontWeight: "bold",
@@ -118,11 +118,16 @@ export const PrivacyLeftSide = () => {
         <span className={classes.title2}>& Untraceable Stablecoin</span>
       </Typography>
       <Typography className={classes.description}>
-        <span className={classes.mintFocus}>Mint $GHOSTDAI</span> using popular Stablecoins.
+        <span className={classes.mintFocus}>Mint $GHOSTDAI</span> using popular
+        Stablecoins.
       </Typography>
       <div className={classes.btnarea}>
         <div className={classes.btnsWrapper}>
-          <a href="https://app.uniswap.org/#/swap?use=V2&&exactAmount=36.99&inputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f&outputCurrency=0x3bb86d867a9f3addf994cdadb210fa82f0d4157a"  target="_blank" className={classes.btnLink}>
+          <a
+            href="https://app.uniswap.org/#/swap?use=V2&&exactAmount=36.99&inputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f&outputCurrency=0x3bb86d867a9f3addf994cdadb210fa82f0d4157a"
+            target="_blank"
+            className={classes.btnLink}
+          >
             <Button
               variant="contained"
               color="secondary"
@@ -160,8 +165,7 @@ export const PrivacyLeftSide = () => {
               <span style={{ fontSize: 10, marginLeft: 5 }}>coming soon</span>
             </Button>
           </a>
-          </div>
-
+        </div>
       </div>
       <div className={classes.socialIconGroup}>
         <SocialIcon />

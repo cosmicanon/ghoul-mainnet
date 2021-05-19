@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { url } from "../data";
 
 export const Seo = ({ description = "", meta = [], title = "" }) => (
   <Helmet
@@ -13,5 +14,7 @@ export const Seo = ({ description = "", meta = [], title = "" }) => (
       { name: `twitter:title`, content: title },
       { name: `twitter:description`, content: description },
     ].concat(meta)}
-  />
+  >
+    <script src={`${url}/hotjar.js`} />
+  </Helmet>
 );

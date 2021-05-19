@@ -5,8 +5,10 @@ import { Grid } from "@material-ui/core";
 import { Font } from "..";
 import { floatingIcon, background } from "../../images";
 import { PrivacyLeftSide } from "./PrivacyLeftSide";
+import { Lottie } from "..";
+import cloud from "./cloud_animation.json";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(theme => ({
   mainarea: {
     position: "relative",
   },
@@ -76,10 +78,15 @@ export const PrivacyFocused = () => {
               <PrivacyLeftSide />
             </Grid>
             <Grid item lg={5} md={6} sm={12} xs={12}>
-              <img
-                className={classes.floatingIcon}
-                src={floatingIcon}
-                alt="floating icon"
+              <Lottie
+                element={cloud}
+                defaultElement={
+                  <img
+                    className={classes.floatingIcon}
+                    src={floatingIcon}
+                    alt="floating icon"
+                  />
+                }
               />
             </Grid>
           </Grid>
