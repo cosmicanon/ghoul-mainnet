@@ -91,6 +91,13 @@ const useStyles = makeStyles((theme) => ({
     },
   },
 
+  downloadBtn: {
+    width: 160,
+    border: "1px solid #FFFFFF",
+    "&:hover": {
+      backgroundColor: "rgba(255,255,255, 0.15)",
+    },
+  },
 
 }));
 
