@@ -18,3 +18,4 @@ export * from "./Reward";
 export * from "./JoinCommunity";
 export * from "./Layout";
 export * from "./Seo";
+export * from "./Lottie";
