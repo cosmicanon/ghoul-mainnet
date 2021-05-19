@@ -125,7 +125,6 @@ export const StackRightSide = () => {
               variant="contained"
               color="secondary"
               className={classes.btnCommon}
-              style={{ width: 225 }}
             >
               <img
                 src={logo}
