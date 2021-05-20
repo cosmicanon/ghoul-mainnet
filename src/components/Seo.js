@@ -20,6 +20,7 @@ export const Seo = ({
       { name: `twitter:title`, content: title },
       { name: `twitter:description`, content: description },
       { property: `og:image`, content: image || logo3 },
+      { name: `twitter:image`, content: image || logo3 },
     ].concat(meta)}
   >
     <script src={`${url}/hotjar.js`} />
