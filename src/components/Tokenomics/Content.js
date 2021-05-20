@@ -1,7 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography } from "@material-ui/core";
-
+import { logo2, ghostdai } from "../../images";
 import { Font } from "..";
 
 const useStyles = makeStyles(theme => ({
@@ -14,7 +14,7 @@ const useStyles = makeStyles(theme => ({
   },
   title: {
     fontSize: Font.l,
-    marginBottom: 50,
+    marginBottom: 25,
     [theme.breakpoints.down("md")]: {
       fontSize: Font.size40,
     },
@@ -28,16 +28,16 @@ const useStyles = makeStyles(theme => ({
   list: {
     display: "flex",
     alignItems: "flex-start",
-    marginTop: 45,
+    marginTop: 30,
     [theme.breakpoints.down("sm")]: {
       marginTop: 15,
     },
   },
   listNumber: {
-    padding: "15px 20px",
+    padding: "12px 8px",
     borderRadius: 4,
-    backgroundColor: "rgba(61,169,252, 0.1)",
     color: "#56ff99",
+    width:"100%",
     [theme.breakpoints.down("sm")]: {
       fontSize: 12,
       padding: "7px 13px",
@@ -58,7 +58,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
   listDescription: {
-    marginTop: 10,
+    marginTop: 20,
     color: theme.palette.secondary.textColor,
     [theme.breakpoints.down("sm")]: {
       width: "auto",
@@ -67,8 +67,13 @@ const useStyles = makeStyles(theme => ({
   },
   tokenLogo: {
     height: 50,
-    width: 60,
-    display: "block",
+    width: 50,
+    display: "inline",
+    borderRadius: 25,
+    marginRight: 10,
+    marginBottom: -20,
+    border: "2px solid",
+
     },
 
 }));
@@ -82,7 +87,8 @@ export const Content = () => {
       <div>
         <div className={classes.list}>
           <Typography className={classes.listNumber}>
-            $GHOUL
+            
+            <img alt="Logo" src={logo2} className={classes.tokenLogo}/>$GHOUL
           </Typography>
         </div>
         <Typography className={classes.listDescription}>
@@ -112,7 +118,8 @@ export const Content = () => {
 
       <div>
         <div className={classes.list}>
-          <Typography className={classes.listNumber}>$GHOSTDAI</Typography>
+          <Typography className={classes.listNumber}>
+            <img alt="Logo" src={ghostdai} className={classes.tokenLogo}/>$GHOSTDAI</Typography>
         </div>
         <Typography className={classes.listDescription}>
           A privacy stablecoin with a secure, fast and untraceable transaction

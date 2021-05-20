@@ -1,6 +1,8 @@
 import { url } from "./data";
 
 export const logo = url + "/images/logo.png";
+export const logo2 = url + "/images/logo2.png";
+export const ghostdai = url + "/images/ghostdai.png";
 export const background = url + "/images/background.png";
 export const floatingIcon = url + "/images/floatingIcon.png";
 export const flyingIcon = url + "/images/flyingIcon.png";
