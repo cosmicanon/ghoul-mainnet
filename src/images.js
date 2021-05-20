@@ -2,6 +2,7 @@ import { url } from "./data";
 
 export const logo = url + "/images/logo.png";
 export const logo2 = url + "/images/logo2.png";
+export const logo3 = url + "/images/logo3.png";
 export const ghostdai = url + "/images/ghostdai.png";
 export const background = url + "/images/background.png";
 export const floatingIcon = url + "/images/floatingIcon.png";

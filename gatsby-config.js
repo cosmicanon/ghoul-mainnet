@@ -3,7 +3,10 @@ module.exports = {
     title: `Ghoul`,
     description: `Privacy Focused Ecosystem and Untraceable Stablecoin`,
     author: `Poltergeist Labs`,
+    image: `src/img/logo3.png`
   },
+
+
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
