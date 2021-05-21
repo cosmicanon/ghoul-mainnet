@@ -1,11 +1,11 @@
 import React from "react";
+import "./style.css";
 import { makeStyles } from "@material-ui/core/styles";
 import { IconButton, CardMedia } from "@material-ui/core";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import RedditIcon from "@material-ui/icons/Reddit";
 import TelegramIcon from "@material-ui/icons/Telegram";
 
-import { discord } from "../../images";
 
 const useStyles = makeStyles((theme) => ({
   discordIcon: {
@@ -31,6 +31,11 @@ export const SocialIcon = (props) => {
           style={{ paddingRight: buttonPadding, paddingLeft: buttonPadding }}
         >
           <TwitterIcon className={classes.socialIcon} />
+        </IconButton>
+      </a>
+      <a href="/">
+        <IconButton style={{ paddingRight: buttonPadding }}>
+          <span className="discord"></span>
         </IconButton>
       </a>
       <a href="https://t.me/poltergeistexchange">

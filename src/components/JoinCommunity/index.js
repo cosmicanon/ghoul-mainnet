@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 import { makeStyles } from "@material-ui/core/styles";
 import { Grid, Typography, Button } from "@material-ui/core";
 import TwitterIcon from "@material-ui/icons/Twitter";
@@ -6,7 +7,7 @@ import RedditIcon from "@material-ui/icons/Reddit";
 import TelegramIcon from "@material-ui/icons/Telegram";
 import { Footer } from "..";
 import { Font } from "..";
-import { logo, joinCommunityDiscordLogo } from "../../images";
+import { logo, discordIcon } from "../../images";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
@@ -94,15 +95,7 @@ const useStyles = makeStyles((theme) => ({
       marginRight: 3,
     },
   },
-  discordIcon: {
-    marginRight: 10,
-    [theme.breakpoints.down("xs")]: {
-      height: 12,
-      width: 12,
-      marginRight: 3,
-      marginTop: -2,
-    },
-  },
+
 }));
 
 export const JoinCommunity = () => {
@@ -126,7 +119,7 @@ export const JoinCommunity = () => {
               <Grid spacing={2} container>
                 <Grid
                   item
-                  md={4}
+                  md={3}
                   sm={4}
                   xs={6}
                   key={0}
@@ -147,14 +140,42 @@ export const JoinCommunity = () => {
                     </Button>
                   </a>
                 </Grid>
+
                 <Grid
                   item
-                  md={4}
-                  sm={4}
+                  md={3}
+                  sm={6}
                   xs={6}
                   key={1}
                   style={{ textAlign: "center" }}
                 >
+
+                  <a
+                    href="http://discord.gg/n2qgHcmBNr"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <Button
+                      variant="contained"
+                      color="primary"
+                      className={classes.button}
+                    ><span className="discordIcon"></span>
+                      Discord
+                    
+                    
+                    </Button>
+                  </a>
+                </Grid>
+
+                <Grid
+                  item
+                  md={3}
+                  sm={6}
+                  xs={6}
+                  key={2}
+                  style={{ textAlign: "center" }}
+                >
+
                   <a
                     href="https://t.me/poltergeistexchange"
                     rel="noreferrer"
@@ -170,12 +191,13 @@ export const JoinCommunity = () => {
                     </Button>
                   </a>
                 </Grid>
+
                 <Grid
                   item
-                  md={4}
-                  sm={4}
-                  xs={12}
-                  key={2}
+                  md={3}
+                  sm={6}
+                  xs={6}
+                  key={3}
                   style={{ textAlign: "center" }}
                 >
 
