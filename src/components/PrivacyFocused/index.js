@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Grid } from "@material-ui/core";
 import { Font } from "..";
-import { floatingIcon, background } from "../../images";
+import { background } from "../../images";
 import { PrivacyLeftSide } from "./PrivacyLeftSide";
 
 
