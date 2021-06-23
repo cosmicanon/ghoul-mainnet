@@ -118,6 +118,9 @@ export const Footer = (props) => {
                 </Link>                
                 <Link to="https://app.uniswap.org/#/swap?use=V2&&exactAmount=36.99&inputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f&outputCurrency=0x3bb86d867a9f3addf994cdadb210fa82f0d4157a" className={classes.navbarText}>
                   <Typography>Ghoul on Uniswap</Typography>
+                </Link>                 
+                <Link to="https://coingecko.com/en/coins/ghoul-token" className={classes.navbarText}>
+                  <Typography>Ghoul on Coingecko</Typography>
                 </Link>                
               </div>
               <br />
