@@ -7,7 +7,7 @@ import RedditIcon from "@material-ui/icons/Reddit";
 import TelegramIcon from "@material-ui/icons/Telegram";
 import { Footer } from "..";
 import { Font } from "..";
-import { logo } from "../../images";
+import { logo, discordIcon } from "../../images";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
@@ -140,7 +140,31 @@ export const JoinCommunity = () => {
                     </Button>
                   </a>
                 </Grid>
+                <Grid
+                  item
+                  md={3}
+                  sm={6}
+                  xs={6}
+                  key={1}
+                  style={{ textAlign: "center" }}
+                >
 
+                  <a
+                    href="http://discord.gg/n2qgHcmBNr"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <Button
+                      variant="contained"
+                      color="primary"
+                      className={classes.button}
+                    ><span className="discordIcon"></span>
+                      Discord
+                    
+                    
+                    </Button>
+                  </a>
+                </Grid>
 
                 <Grid
                   item
