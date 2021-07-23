@@ -119,7 +119,7 @@ export const JoinCommunity = () => {
               <Grid spacing={2} container>
                 <Grid
                   item
-                  md={4}
+                  md={3}
                   sm={4}
                   xs={6}
                   key={0}
@@ -168,7 +168,7 @@ export const JoinCommunity = () => {
 
                 <Grid
                   item
-                  md={4}
+                  md={3}
                   sm={6}
                   xs={6}
                   key={2}
@@ -193,7 +193,7 @@ export const JoinCommunity = () => {
 
                 <Grid
                   item
-                  md={4}
+                  md={3}
                   sm={6}
                   xs={6}
                   key={3}
