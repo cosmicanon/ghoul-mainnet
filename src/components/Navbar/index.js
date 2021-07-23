@@ -61,6 +61,9 @@ export const Navbar = (props) => {
           </Link>
           <Link className={`${classes.menubarLink} routerlink`} to={darkpaper}>
             Darkpaper
+          </Link>          
+          <Link className={`${classes.menubarLink} routerlink`} to="https://docs.ghoultoken.io/">
+            Documentation
           </Link>
         </div>
         <Hamburger {...props} />

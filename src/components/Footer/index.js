@@ -105,6 +105,9 @@ export const Footer = (props) => {
                 <Link to={darkpaper} className={classes.navbarText}>
                   <Typography>Darkpaper</Typography>
                 </Link>
+                <Link to="https://docs.ghoultoken.io/" className={classes.navbarText}>
+                  <Typography>Documentation</Typography>
+                </Link>                
               </div>
               <br />
             </div>
