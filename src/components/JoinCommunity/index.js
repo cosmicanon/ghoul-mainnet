@@ -216,7 +216,8 @@ export const JoinCommunity = () => {
                   </a>
                 </Grid>
               </Grid>
-            </divs          </div>
+            </div>         
+            </div>
         </div>
         <Footer style={{ paddingTop: 50 }} />
       </div>
