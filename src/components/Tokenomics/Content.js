@@ -123,8 +123,7 @@ export const Content = () => {
         </div>
         <Typography className={classes.listDescription}>
           A privacy stablecoin with a secure, fast and untraceable transaction
-          layer for users. Anyone can deposit select stablecoins from public
-          chains to mint GhostDai 1:1, for use within the ecosystem. 
+          layer for users. Anyone can deposit select coins and tokens from public and private chains to mint $gDAI, for use within the ecosystem. 
         </Typography>
       </div>
     </div>
