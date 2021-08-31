@@ -126,7 +126,7 @@ export const JoinCommunity = () => {
                   style={{ textAlign: "center" }}
                 >
                   <a
-                    href="https://twitter.com/PoltergeistDEX"
+                    href="https://twitter.com/Poltergeistlabs"
                     rel="noreferrer"
                     target="_blank"
                   >
@@ -152,7 +152,7 @@ export const JoinCommunity = () => {
                 >
 
                   <a
-                    href="https://t.me/poltergeistexchange"
+                    href="https://t.me/poltergeistlabs"
                     rel="noreferrer"
                     target="_blank"
                   >
