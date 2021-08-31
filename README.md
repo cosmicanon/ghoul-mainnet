@@ -9,7 +9,7 @@
 
 
 * Website: [https:/www.ghoultoken.io](https://www.ghoultoken.io)
-* Telegram: [https://t.me/poltergeistexchange](https://t.me/poltergeistexchange)
+* Telegram: [https://t.me/poltergeistlabs](https://t.me/poltergeistlabs)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/83acf37f-765d-49d5-b7cb-0c31c43f8f2c/deploy-status)](https://app.netlify.com/sites/zen-hodgkin-d0c4ae/deploys)
 
