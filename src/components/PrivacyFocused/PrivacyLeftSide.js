@@ -117,8 +117,7 @@ export const PrivacyLeftSide = () => {
         <span className={classes.title2}>& Untraceable Stablecoin</span>
       </Typography>
       <Typography className={classes.description}>
-        <span className={classes.mintFocus}>Mint $GHOSTDAI</span> using popular
-        Stablecoins.
+        <span className={classes.mintFocus}>Mint $gDAI</span> using select privacy coins and tokens.
       </Typography>
       <div className={classes.btnarea}>
         <div className={classes.btnsWrapper}>
