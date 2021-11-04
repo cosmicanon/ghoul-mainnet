@@ -4,11 +4,11 @@ import { Grid, Typography, Button } from "@material-ui/core";
 import './style.css';
 import { Font } from "..";
 import { Footer, FooterDivider, Seo } from "..";
-import { logo } from "../../images";
+import { logo, ghostdai } from "../../images";
 
-export const Staking = () => (
+export const Ecosystem = () => (
   <>
-    <Seo title="GHOUL Staking" />
+    <Seo title="GHOUL Ecosystem" />
     <StakingTiers />
     <FooterDivider />
     <Footer />
@@ -112,20 +112,20 @@ export default function StakingTiers() {
         <Grid container style={{ alignItems: "center" }}>
           <Grid item md={4} sm={12} xs={12}>
             <Typography className={classes.title}>
-              Staking
+              Ecosystem
             </Typography>
           </Grid>
         </Grid>
         <Grid container>
-        <Grid item  md={5} sm={12} xs={12}>
+        <Grid item  md={12} sm={12} xs={12}>
 
         	<br />
         	<p>
-            Stake your GHOUL on Poltergeist Exchange for ecosystem governance, profit sharing and other upcoming benefits.<br /><br/>
+            Stake your $GHOUL towards projects within the ecosystem to earn their governance and utility tokens.<br /><br/>
         	</p>
 
            <div className={classes.btnsWrapper}>
-              <a target="_blank"  rel="noreferrer" href="https://app.uniswap.org/#/swap?use=V2&&exactAmount=36.99&inputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f&outputCurrency=0x3bb86d867a9f3addf994cdadb210fa82f0d4157a" className={classes.btnLink}>
+              <a target="_blank"  rel="noreferrer" href="https://pancakeswap.finance/swap?outputCurrency=0x171ce6141e7a5980222bc6b757ee2f1f95b3264e" className={classes.btnLink}>
                 <Button
                   variant="contained"
                   color="secondary"
@@ -143,43 +143,85 @@ export default function StakingTiers() {
             </div><br/><br/>
 
         </Grid>
-        <Grid item  md={7} sm={12} xs={12}>
+        <Grid item  md={12} sm={12} xs={12}>
 
 	    
 	            <div className="group">
 
 
-	                    <div className="grid-1-3" style={{ marginLeft: '10px', marginBottom: '30px' }}>
-	                        <img className="goul-icon-a" src="https://poltergeistexchange.com/static/media/logo.c4de8924.svg" alt="Poltergeist Exchange" height={50} />
-	                        <h2>Diamond</h2>
-	                        <h3><sup>Under </sup>50,000 GHOUL</h3>
+	                    <div className="grid-1-3" style={{ marginLeft: '10px', marginBottom: '20px' }}>
+	                        <img className="" src={ghostdai} alt="gDAI Protocol" height={150} />
+	                        <h2>gDAI</h2>
+	                        <h4>Stablecoin backed with collateral of your crypto holdings</h4>
 	                        <hr /><br />
 	                        <ul>
-	                            <li>Poltergeist Profit Sharing</li>
-	                            <li>Surprise Airdrops</li>
-	                            <li>Governance Voting</li>
+	                            <li>
+                                <a target="_blank"  rel="noreferrer" href="https://app.ghoul.finance" className={classes.btnLink}>
+                                  <Button
+                                    variant="contained"
+                                    color="secondary"
+                                    className={classes.btnCommon}
+                                    style={{ width: 225 }}
+                                  >
+                                    Launch App{" "}
+                                  </Button>
+                                </a>
+                              </li>
+
+	                            <li>
+                                <a target="_blank"  rel="noreferrer" href="https://docs.ghoul.finance" className={classes.btnLink}>
+                                  <Button
+                                    variant="contained"
+                                    color="secondary"
+                                    className={classes.btnCommon}
+                                    style={{ width: 225 }}
+                                  >
+                                    Learn More{" "}
+                                  </Button>
+                                </a>
+                              </li>
 	                        </ul>
 	                        
 	                    </div>
-	                    <div className="grid-1-3" style={{ marginLeft: '10px', marginBottom: '30px' }}>
-	                        <img className="goul-icon-b" src="https://poltergeistexchange.com/static/media/logo.c4de8924.svg" alt="Poltergeist Exchange" height={50} />
+	                    <div className="grid-1-3" style={{ marginLeft: '10px', marginBottom: '20px' }}>
+	                        <img className="" src={ghostdai} alt="gDAI Protocol" height={150} />
 	                        <h2>Platinum</h2>
-	                        <h3><sup>Over </sup>50,000 GHOUL</h3>
+	                        <h4><sup>min stake </sup> 50,000 GHOUL</h4>
 	                        <hr /><br />
 	                        <ul>
-	                            <li>Poltergeist Profit Sharing</li>
-	                            <li>Higher Staking APR</li>
-                              <li>Exclusive Airdrops</li>
-	                            <li>Governance Voting</li>
-	                            <li>Early access to PRIFI Dapps</li>
+	                            <li>Coming Soon...</li>
 	                        </ul>
 	                        
 	                    </div>
+                      <div className="grid-1-3" style={{ marginLeft: '10px', marginBottom: '20px' }}>
+                          <img className="" src={ghostdai} alt="gDAI Protocol" height={150} />
+                          <h2>Platinum</h2>
+                          <h4>50,000 GHOUL</h4>
+                          <hr /><br />
+                          <ul>
+                              <li>Coming Soon...</li>
+
+                          </ul>
+                          
+                      </div>
+                      <div className="grid-1-3" style={{ marginLeft: '10px', marginBottom: '20px' }}>
+                          <img className="" src={ghostdai} alt="gDAI Protocol" height={150} />
+                          <h2>Platinum</h2>
+                          <h4>50,000 GHOUL</h4>
+                          <hr /><br />
+                          <ul>
+                              <li>Coming Soon...</li>
+
+                          </ul>
+                          
+                      </div>
 	            </div>
 
 
         </Grid>
         </Grid>
+
+
       </div>
     </div>
 

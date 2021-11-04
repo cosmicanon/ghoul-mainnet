@@ -10,8 +10,7 @@ export default function NewMap() {
                     <div className="cd-timeline-content">
                         <h3>Foundation</h3>
                         <ul >
-                            <li>Poltergeist Exchange</li>
-                            <li>AnonSwap</li>
+                            <li>gDAI - Stablecoin Protocol</li>
                         </ul>
                     </div> {/* cd-timeline-content */}
                 </div> {/* cd-timeline-block */}
