@@ -20,7 +20,7 @@ export default function NewMap() {
                     <div className="cd-timeline-content">
                         <h3>Identification</h3>
                         <ul >
-                            <li>Alias - P2P identity verification without using real IDs</li>
+                            <li>Alias - P2P identity verification</li>
                         </ul>
                     </div> {/* cd-timeline-content */}
                 </div> {/* cd-timeline-block */}
