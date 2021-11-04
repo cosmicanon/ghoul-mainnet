@@ -4,7 +4,7 @@ import { Grid, Typography, Button } from "@material-ui/core";
 import './style.css';
 import { Font } from "..";
 import { Footer, FooterDivider, Seo } from "..";
-import { logo, ghostdai } from "../../images";
+import { logo, ghostdai, locked } from "../../images";
 
 export const Ecosystem = () => (
   <>
@@ -184,9 +184,9 @@ export default function StakingTiers() {
 	                        
 	                    </div>
 	                    <div className="grid-1-3" style={{ marginLeft: '10px', marginBottom: '20px' }}>
-	                        <img className="" src={ghostdai} alt="gDAI Protocol" height={150} />
-	                        <h2>Platinum</h2>
-	                        <h4><sup>min stake </sup> 50,000 GHOUL</h4>
+	                        <img className="" src={locked} alt="gDAI Protocol" height={150} />
+	                        <h2>Locked</h2>
+	                        <h4>-----</h4>
 	                        <hr /><br />
 	                        <ul>
 	                            <li>Coming Soon...</li>
@@ -194,9 +194,9 @@ export default function StakingTiers() {
 	                        
 	                    </div>
                       <div className="grid-1-3" style={{ marginLeft: '10px', marginBottom: '20px' }}>
-                          <img className="" src={ghostdai} alt="gDAI Protocol" height={150} />
-                          <h2>Platinum</h2>
-                          <h4>50,000 GHOUL</h4>
+                          <img className="" src={locked} alt="gDAI Protocol" height={150} />
+                          <h2>Locked</h2>
+                          <h4>-----</h4>
                           <hr /><br />
                           <ul>
                               <li>Coming Soon...</li>
@@ -205,9 +205,9 @@ export default function StakingTiers() {
                           
                       </div>
                       <div className="grid-1-3" style={{ marginLeft: '10px', marginBottom: '20px' }}>
-                          <img className="" src={ghostdai} alt="gDAI Protocol" height={150} />
-                          <h2>Platinum</h2>
-                          <h4>50,000 GHOUL</h4>
+                          <img className="" src={locked} alt="gDAI Protocol" height={150} />
+                          <h2>Locked</h2>
+                          <h4>-----</h4>
                           <hr /><br />
                           <ul>
                               <li>Coming Soon...</li>

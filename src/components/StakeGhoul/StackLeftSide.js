@@ -100,6 +100,19 @@ export const StackLeftSide = () => {
       <div className={classes.btnarea}>
         <div className={classes.btnsWrapper}>
 
+          <a href="/ecosystem" className={classes.btnLink}>
+            <Button
+              variant="contained"
+              color="primary"
+              className={`${classes.btnCommon} ${classes.downloadBtn}`}
+            >
+              View Ecosystem
+            </Button>
+          </a>
+        </div>
+
+        <div className={classes.btnsWrapper}>
+
           <a href="/roadmap" className={classes.btnLink}>
             <Button
               variant="contained"
@@ -110,8 +123,6 @@ export const StackLeftSide = () => {
             </Button>
           </a>
         </div>
-
-
        
       </div>
       

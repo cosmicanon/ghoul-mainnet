@@ -96,7 +96,7 @@ export const Footer = (props) => {
                 <Link to="/#tokenomics" className={classes.navbarText}>
                   <Typography>Tokenomics</Typography>
                 </Link>                 
-                <Link to="/#ecosystem-coming-soon" className={classes.navbarText}>
+                <Link to="/ecosystem" className={classes.navbarText}>
                   <Typography>Ecosystem</Typography>
                 </Link>                
                 <Link to="/roadmap" className={classes.navbarText}>

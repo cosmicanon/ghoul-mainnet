@@ -6,6 +6,7 @@ export const logo3 = url + "/images/logox.png";
 export const logo4 = url + "/images/logox2.png";
 export const gdailogo = url + "/images/gdai.png";
 export const ghostdai = url + "/images/ghostdai.png";
+export const locked = url + "/images/lockedproject.png";
 export const background = url + "/images/background.png";
 export const floatingIcon = url + "/images/floatingIcon.png";
 export const flyingIcon = url + "/images/flyingIcon.png";

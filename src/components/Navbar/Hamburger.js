@@ -70,7 +70,7 @@ export const Hamburger = (props) => {
           <Link className={`${classes.menubarLink} routerlink`} to="/#tokenomics">
             Tokenomics
           </Link>
-          <Link className={`${classes.menubarLink} routerlink`} to="/#ecosystem-coming-soon">
+          <Link className={`${classes.menubarLink} routerlink`} to="/ecosystem">
             Staking
           </Link>          
           <Link className={`${classes.menubarLink} routerlink`} to="/roadmap">
