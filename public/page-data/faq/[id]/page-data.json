@@ -1,1 +1,6 @@
-{"componentChunkName":"component---src-pages-faq-[id]-js","path":"/faq/[id]/","matchPath":"/faq/:id","result":{"pageContext":{"matchPath":"/faq/:id"}},"staticQueryHashes":[]}
+{
+    "componentChunkName": "component---src-pages-faq-[id]-js",
+    "path": "/faq/[id]/",
+    "result": {"pageContext":{"matchPath":"/faq/:id"}},
+    "staticQueryHashes": [],
+    "matchPath": "/faq/:id"}
