@@ -50,7 +50,7 @@ const useStyles = makeStyles(theme => ({
     color: theme.palette.secondary.textColor,
     [theme.breakpoints.down("sm")]: {
       width: "auto",
-      marginTop: 0,
+      marginTop: 20,
     },
   },
   tokenLogo: {
@@ -80,9 +80,8 @@ export const LeftContent = () => {
         </div>
         <Typography className={classes.listDescription}>
           The Super DAO Governance and Utility Token for voting on the general direction the wider Ghoul Ecosystem. 
-          $Ghoul stakers can earn the new DAO Governance tokens of existing and upcoming projects. 
-          Holders of 50k+ $Ghoul have access to exclusive airdrops and early access to PRIFI Dapps.
-          Rewards and benefits increase as roadmap projects are developed further.
+          $Ghoul stakers can earn the DAO Governance tokens of existing and new products.
+          Rewards and benefits increase as roadmap is developed further.
           <br />
           <br />
           <ul>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { url } from "../data";
-import { logo3 } from "../images";
+import { logo } from "../images";
 
 export const Seo = ({
   description = "",
@@ -19,8 +19,8 @@ export const Seo = ({
       { name: `twitter:card`, content: `summary` },
       { name: `twitter:title`, content: title },
       { name: `twitter:description`, content: description },
-      { property: `og:image`, content: image || logo3 },
-      { name: `twitter:image`, content: image || logo3 },
+      { property: `og:image`, content: image || logo },
+      { name: `twitter:image`, content: image || logo },
     ].concat(meta)}
   >
     <script src={`${url}/hotjar.js`} />
