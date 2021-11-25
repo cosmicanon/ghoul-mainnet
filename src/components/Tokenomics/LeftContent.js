@@ -79,7 +79,7 @@ export const LeftContent = () => {
           </Typography>
         </div>
         <Typography className={classes.listDescription}>
-          The Super DAO Governance and Utility Token for voting on the general direction the wider Ghoul Ecosystem. 
+          The Super DAO Governance and Utility Token for voting on the general direction of the wider Ghoul Ecosystem. 
           $Ghoul stakers can earn the DAO Governance tokens of existing and new products.
           Rewards and benefits increase as roadmap is developed further.
           <br />
