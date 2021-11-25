@@ -85,7 +85,7 @@ export const LeftContent = () => {
           <br />
           <br />
           <ul>
-            <li>Initial Supply: 100,000000 GHOUL</li>
+            <li>Initial Supply: 100,000,000 GHOUL</li>
             <li>Burned Supply: 42,991,369 GHOUL</li>
             <li>Locked Team Fund: 15,000,000 GHOUL (Til April 2022)</li>
             <li>Final Supply: 57,008,631 GHOUL</li>
